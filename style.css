@@ -1,0 +1,66 @@
+html {
+	background: #ddd;
+}
+
+body {
+	max-width: 600px;
+	margin: 25px auto;
+	padding: 25px;
+	background: white;
+	color: #222;
+	font-family: serif;
+	font-size: 20px;
+	line-height: 1.25;
+	text-rendering: optimizeLegibility;
+}
+
+p {
+	margin: 25px 0;
+}
+
+a:link,
+a:visited {
+	color: navy;
+}
+
+a:active {
+	color: #222;
+	background: yellow;
+}
+
+body > a {
+	float: left;
+	font-size: 15px;
+	line-height: 25px;
+	text-transform: lowercase;
+}
+
+article time {
+	display: block;
+	text-align: right;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+article header h1 {
+	margin: 25px 0;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+article header p {
+	color: #666;
+	font-style: italic;
+}
+
+footer {
+	margin: 25px;
+	font-size: 15px;
+	line-height: 25px;
+	text-align: right;
+	text-transform: lowercase;
+}
+
+footer a[href="#top"]:after {
+	content: " ⇧";
+}
