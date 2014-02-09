@@ -30,6 +30,7 @@ a:active {
 
 body > a {
 	float: left;
+	padding: 0 5px;
 	font-size: 15px;
 	line-height: 25px;
 	text-transform: lowercase;
