@@ -28,6 +28,10 @@ a:active {
 	background: yellow;
 }
 
+body > img {
+	width: 100%;
+}
+
 body > a {
 	float: left;
 	padding: 0 5px;
