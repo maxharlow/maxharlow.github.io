@@ -67,7 +67,3 @@ footer {
 	text-align: right;
 	text-transform: lowercase;
 }
-
-footer a[href="#top"]:after {
-	content: " ⇧";
-}
