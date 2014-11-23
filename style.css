@@ -1,15 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,700italic,400italic);
+
 html {
-	background: #ddd;
+	background: #eee;
 }
 
 body {
-	max-width: 600px;
-	margin: 25px auto;
+	max-width: 700px;
+	margin: 0 auto;
 	padding: 25px;
 	background: white;
 	color: #222;
-	font-family: serif;
-	font-size: 20px;
+	font-family: 'Crimson Text', serif;
+	font-size: 22px;
 	line-height: 1.25;
 	text-rendering: optimizeLegibility;
 }
@@ -49,8 +51,8 @@ article time {
 
 article header h1 {
 	margin: 25px 0;
-	font-size: 40px;
-	font-weight: bold;
+	font-size: 60px;
+	font-style: italic;
 }
 
 article header p {
