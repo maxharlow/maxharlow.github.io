@@ -1,69 +1,101 @@
-@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,700italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:700);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:700italic);
 
 html {
-	background: #eee;
+    background-color: #f0f0f0;
 }
 
 body {
-	max-width: 700px;
-	margin: 0 auto;
-	padding: 25px;
-	background: white;
-	color: #222;
-	font-family: 'Crimson Text', serif;
-	font-size: 22px;
-	line-height: 1.25;
-	text-rendering: optimizeLegibility;
+    max-width: 750px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background: white;
+    color: #222;
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
 }
 
 p {
-	margin: 25px 0;
+    margin: 25px;
 }
 
 a:link,
 a:visited {
-	color: navy;
+    color: navy;
 }
 
 a:active {
-	color: #222;
-	background: yellow;
+    color: #222;
+    background: #fabe0a;
 }
 
-body > img {
-	width: 100%;
+article a:active,
+body > p a:active {
+    padding: 1px 3px;
+    margin: -1px -3px;
+}
+
+img {
+    width: 100%;
 }
 
 body > a {
-	float: left;
-	padding: 0 5px;
-	font-size: 15px;
-	line-height: 25px;
-	text-transform: lowercase;
+    float: left;
+    padding: 0 10px;
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+body > a::before {
+    content: '← ';
 }
 
 article time {
-	display: block;
-	text-align: right;
-	font-size: 15px;
-	line-height: 25px;
+    display: block;
+    padding: 0 10px;
+    text-align: right;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 0.5px;
 }
 
 article header h1 {
-	margin: 25px 0;
-	font-size: 60px;
-	font-style: italic;
+    background: #222;
+    margin: 0 0 25px 0;
+    padding: 5px 25px 35px 25px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
 }
 
 article header p {
-	color: #666;
-	font-style: italic;
+    color: #666;
+    font-style: italic;
 }
 
 footer {
-	margin: 25px;
-	font-size: 15px;
-	line-height: 25px;
-	text-align: right;
-	text-transform: lowercase;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+footer > * {
+    padding: 10px;
 }
