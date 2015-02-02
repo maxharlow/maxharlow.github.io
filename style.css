@@ -8,6 +8,7 @@ html {
 
 body {
     max-width: 750px;
+    min-height: 100vh;
     margin: 0 auto;
     padding-bottom: 10px;
     background: white;
@@ -28,14 +29,13 @@ a:visited {
 }
 
 a:active {
-    color: #222;
     background: #fabe0a;
 }
 
 article a:active,
 body > p a:active {
-    padding: 0 3px 1px 3px;
-    margin: 0 -3px -1px -3px;
+    padding: 0 3px 5px 3px;
+    margin: 0 -3px -5px -3px;
 }
 
 img {
