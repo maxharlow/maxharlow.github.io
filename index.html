@@ -10,11 +10,78 @@
 </head>
 <body>
 <img src="me.png" alt=""/>
+<h1>Max Harlow</h1>
 <p>
-I'm Max Harlow. Hi. I'm technical lead at <a href="http://thebureauinvestigates.com/">the Bureau of Investigative Journalism</a>, using technical methods and tools for data-based public interest investigations. Previously I was a software developer at <a href="http://theguardian.com/">the Guardian</a>.
+I specialise in using technology in newsrooms. Previously I was technical lead at <a href="http://thebureauinvestigates.com/">the Bureau of Investigative Journalism</a>, using technical methods and tools for data-based public interest investigations. Before that I was a software developer at <a href="http://theguardian.com/">the Guardian</a>.
+</p>
+<aside>
+<h3>Contact</h3>
+<p><a href="mailto:maxharlow+web@gmail.com">maxharlow+web@gmail.com</a></p>
+<p><a href="https://twitter.com/maxharlow"></svg>@maxharlow</a></p>
+<p><a href="https://github.com/maxharlow">github.com/maxharlow</a></p>
+</aside>
+<section>
+<h3>Things I've worked on</h3>
+<h4>CSV Match & CSV Bar</h4>
+<p>
+<em><a href="https://github.com/maxharlow/csvmatch">CSV Match</a></em> is a tool for finding matches in two spreadsheets using various fuzzy-matching algorithms.
 </p>
 <p>
-You can reach me on Twitter <a href="http://twitter.com/maxharlow">@maxharlow</a>. I maintain various scrapers and other tools <a href="https://github.com/maxharlow/">on Github</a>.
+<em><a href="https://github.com/maxharlow/csvbar">CSV Bar</a></em> draws bar charts from CSV files in the terminal for quick data analysis.
 </p>
+<h4>Graphik</h4>
+<p>
+A easy-to-use tool for creating static charts quickly. The two aims were that it be so easy to use it would be next to impossible to create a bad or incorrect chart and that it would be easy to customise to the house style of any given news organisation.
+</p>
+<p>
+<a href="http://labs.thebureauinvestigates.com/graphik/">Try out the version used by the Bureau of Investigative Journalism</a>.
+</p>
+<p>
+<a href="https://github.com/tbij/graphik">View on Github</a>.
+</p>
+<h4>Datastash</h4>
+<p>
+A tool to detect and alert when datasets change. Datastash lets you plug in any scraper which it then runs periodically. It then alerts you by email when the data changes. These alerts are run as database queries, so they can include other rules — eg. 'notify me when the unemployment rate increases by more than ten percent'.
+</p>
+<p>
+<a href="https://github.com/maxharlow/datastash">View on Github</a>.
+</p>
+<h4>Offshore secrets</h4>
+<p>
+A batch of stories, the result of collaboration with three Guardian journalists. With a leaked list naming 53,000 people holding accounts in offshore bank Keinwort Benson, the aim was to find noted public figures on the list.
+</p>
+<p>
+To do this, I scraped names from the UK edition of Who's Who, political donors recorded by the Electoral Commission, and the Sunday Times rich list. Given the many ways a name can be expressed and the poor quality of the leaked data, I built a small tool to compare different permutations of the names I had scraped together with the names in the leaked list. Running such comparisons on powerful Amazon EC2 machines sped up the process. I found a number of names using this approach that were included in the stories we published, and for those that had made political donations, calculated their size.
+</p>
+<p>
+<a href="http://www.theguardian.com/politics/2014/jul/08/offshore-secrets-wealthy-political-donors">Read the first in the series</a>, and <a href="http://www.theguardian.com/uk-news/2014/jul/09/offshore-tax-dealings-celebrities-sportsmen-leaked-jersey-files">the last</a>.
+</p>
+<h4>Who Follows Who & Who Said That</h4>
+<p>
+<em><a href="https://github.com/maxharlow/who-follows-who">Who Follows Who</a></em>: takes a list of Twitter account names and produces a spreadsheet showing which accounts follow other accounts from the original list. Can be used to help understand the relationships between different accounts.
+</p>
+<p>
+<em><a href="https://github.com/maxharlow/who-said-that">Who Said That</a></em>: Searches Twitter for a search term, and puts all the Tweets that match into a spreadsheet. Can be used to archive large amounts of Tweets quickly.
+</p>
+<h4>Find Company Officers</h4>
+<p>
+Looks up a list of companies using <a href="https://opencorporates.com/">OpenCorporates</a> and produces a new list of the registered officers at those companies.
+</p>
+<p>
+<a href="https://github.com/maxharlow/find-company-officers/">View on Github</a>.
+</p>
+<h4>Scrapers</h4>
+<p>
+I've written a number of scrapers for various websites as part of stories or for other projects, including:
+</p>
+<ul>
+<li><a href="https://github.com/maxharlow/scrape-members-financial-interests">MP's financial interests</a></li>
+<li><a href="https://github.com/maxharlow/scrape-disqualified-directors">Disqualified directors</a></li>
+<li><a href="https://github.com/maxharlow/scrape-forbes">Forbes rich lists</a></li>
+<li><a href="https://github.com/maxharlow/scrape-contracts">Government contracts (non-EU)</a></li>
+<li><a href="https://github.com/maxharlow/scrape-whos-who">Whos' Who</a></li>
+<li><a href="https://github.com/maxharlow/scrape-caa-info">Civil Aviation Authority registration database</a></li>
+</ul>
+</section>
 </body>
 </html>
