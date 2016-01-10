@@ -1,17 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:700);
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:700italic);
-
-html {
-    background-color: #f0f0f0;
-}
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700);
 
 body {
-    max-width: 750px;
-    min-height: 100vh;
-    margin: 0 auto;
-    padding-bottom: 10px;
-    background: white;
+    max-width: 1000px;
+    margin: 20px auto 60px auto;
+    padding: 0 20px;
     color: #222;
     font-family: 'Crimson Text', serif;
     font-size: 22px;
@@ -19,8 +11,37 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+h1 {
+    margin: 20px 0;
+    font-size: 42px;
+}
+
+h3 {
+    margin: 40px 0 20px 0;
+    border-bottom: 1px solid #222;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h3 ~ p {
+    margin: 0 0 0 30px;
+}
+
+h3 ~ h4 {
+    margin: 25px 0 0 30px;
+}
+
+h4 {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
 p {
-    margin: 25px;
+    margin: 0;
+}
+
+p + p {
+    margin-top: 10px;
 }
 
 a:link,
@@ -29,73 +50,55 @@ a:visited {
 }
 
 a:active {
-    background: #fabe0a;
+    background: yellow;
 }
 
-article a:active,
-body > p a:active {
-    padding: 0 3px 5px 3px;
-    margin: 0 -3px -5px -3px;
+ul {
+    margin: 10px 0;
+    padding-left: 30px;
 }
 
 img {
     width: 100%;
 }
 
-body > a {
-    float: left;
-    padding: 0 10px;
-    margin: 0;
-    font-family: 'PT Sans Caption', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 30px;
-    letter-spacing: 0.5px;
+body > a[href='/'] {
+    float: right;
 }
 
-body > a::before {
+body > a[href='/']::before {
     content: '← ';
 }
 
 article time {
-    display: block;
-    padding: 0 10px;
+    font-size: 14px;
     text-align: right;
-    font-family: 'PT Sans Caption', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 30px;
-    letter-spacing: 0.5px;
 }
 
-article header h1 {
-    background: #222;
-    margin: 0 0 25px 0;
-    padding: 5px 25px 35px 25px;
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-size: 50px;
-    font-style: italic;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
+article header {
+    margin-bottom: 30px;
 }
 
 article header p {
-    color: #666;
-    font-style: italic;
+    color: gray;
 }
 
 footer {
-    text-align: right;
-    text-transform: uppercase;
-    font-family: 'PT Sans Caption', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
+    float: right;
+    margin-top: 20px;
 }
 
-footer > * {
-    padding: 10px;
+@media (min-width: 800px) {
+
+    aside {
+        float: left;
+        clear: left;
+        width: 300px;
+        padding-right: 20px;
+    }
+
+    section {
+        margin-left: 320px;
+    }
+
 }
