@@ -28,9 +28,12 @@ I was previously technical lead at <a href="http://thebureauinvestigates.com/">t
 </aside>
 <section>
 <h3>Projects</h3>
-<h4>CSV Match & CSV Bar</h4>
+<h4>Command-line data analysis tools</h4>
 <p>
 <em><a href="https://github.com/maxharlow/csvmatch">CSV Match</a></em> is a tool for finding matches in two spreadsheets using various fuzzy-matching algorithms.
+</p>
+<p>
+<em><a href="https://github.com/maxharlow/csvpivot">CSV Pivot</a></em> allows you to produce pivot tables in the terminal.
 </p>
 <p>
 <em><a href="https://github.com/maxharlow/csvbar">CSV Bar</a></em> draws bar charts from CSV files in the terminal for quick data analysis.
@@ -47,7 +50,7 @@ A easy-to-use tool for creating static charts quickly. The two aims were that it
 </p>
 <h4>Datastash</h4>
 <p>
-A tool to detect when potentially newsworthy events happen. Datastash lets you give it a list of instructions which it runs periodically. For example, this could be scraping a list of names from a website and comparing them against another list of people you are interested in. Each time it runs it compares the results to the previous time. If there are any new records you recieve an email.
+Datastash is an automated lead generation tool. It lets you easily create powerful bots that periodically gather data that you are interested in, and alert you to anything that changes. For example, this could be scraping a list of names from a website and comparing them against another list of politically notable people.
 </p>
 <p>
 <a href="https://github.com/maxharlow/datastash">View on Github</a>.
@@ -72,9 +75,9 @@ To do this, names were scraped from UK Who's Who, the Electoral Commission's rec
 <p>
 <em><a href="https://github.com/maxharlow/who-says-what">Who Says What</a></em>: Get someone's entire Twitter timeline as a spreadsheet.
 </p>
-<h4>Find Company Officers</h4>
+<h4>Reconcile</h4>
 <p>
-Looks up a list of companies using <a href="https://opencorporates.com/">OpenCorporates</a> and produces a new list of the registered officers at those companies.
+A set of tools for linking up company data, using <a href="https://opencorporates.com/">OpenCorporates</a>. For example, lets you take a spreadsheet of company names, automatically look up their registered company numbers, then using those numbers, produce a new list of directors at those companies. Such data could then potentially be imported into a graph database such as <a href="http://neo4j.com">Neo4j</a> for analysis.
 </p>
 <p>
 <a href="https://github.com/maxharlow/find-company-officers/">View on Github</a>.
@@ -84,6 +87,7 @@ Looks up a list of companies using <a href="https://opencorporates.com/">OpenCor
 I've written a number of scrapers for various websites as part of stories or for other projects, including:
 </p>
 <ul>
+<li><a href="https://github.com/maxharlow/scrape-xhibit">Live crown court listings</a></li>
 <li><a href="https://github.com/maxharlow/scrape-members-financial-interests">MP's financial interests</a></li>
 <li><a href="https://github.com/maxharlow/scrape-disqualified-directors">Disqualified directors</a></li>
 <li><a href="https://github.com/maxharlow/scrape-forbes">Forbes rich lists</a></li>
