@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="initial-scale=1">
 <link rel="stylesheet" href="style.css">
-<script src="//www.google-analytics.com/analytics.js" async></script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 <script src="analytics.js" async></script>
 </head>
 <body>
@@ -18,7 +18,10 @@ I specialise in applying technology within news organisations – both to find s
 Specifically, I am interested in using a combination of traditional reporting skills and software development to break stories that cannot be covered otherwise. It's an emerging area, and we are just at the start of understanding what can be achieved, as well as what methods and tools are required to run such projects.
 </p>
 <p>
-I was previously technical lead at <a href="http://thebureauinvestigates.com/">the Bureau of Investigative Journalism</a>. Before that I worked as a software developer at <a href="http://theguardian.com/">the Guardian</a>.
+I currently work at <a href="https://os.uk/">Ordnance Survey</a>'s <a href="https://geovation.uk/">Geovation</a> lab. I was previously technical lead at <a href="https://thebureauinvestigates.com/">the Bureau of Investigative Journalism</a>. Before that I worked as a software developer at <a href="https://theguardian.com/">the Guardian</a>.
+</p>
+<p>
+I also co-organise <a href="https://www.meetup.com/journocoders">Journocoders</a>, a monthly meetup for people working at the point where journalism and technology meet, focusing on teaching and learning practical skills for working in this space.
 </p>
 <aside>
 <h3>Contact</h3>
@@ -40,14 +43,14 @@ I was previously technical lead at <a href="http://thebureauinvestigates.com/">t
 </p>
 <h4>Newsagent</h4>
 <p>
-A tool for automatically identifing potential story leads. It lets you easily create bots to periodically gather data that you are interested in, and then alert you to anything that changes. For example, this could be scraping a list of names from a website and comparing them against another list of politically notable people.
+A Node-based system initially developed during my time at the Guardian to automatically identify potential story leads. Allows the creation and management of autonomous bots which poll data sources that you are interested in. Data is then processed and compared to the last time the bot ran. Any records being added or removed triggers an email alert. For example, this could be scraping a list of names from a website and comparing them against another list of politically notable people.
 </p>
 <p>
 <a href="https://github.com/maxharlow/newsagent">View on Github</a>.
 </p>
 <h4>Graphik</h4>
 <p>
-A easy-to-use tool for creating static charts quickly. The two aims were that it be so easy to use it would be next to impossible to create a bad or incorrect chart and that it would be easy to customise to the house style of any given news organisation.
+A D3-based webapp to enable non-technical people to create simple static charts quickly. It can be easily customised to the house style of any given news organisation via a simple stylesheet.
 </p>
 <p>
 <a href="http://labs.thebureauinvestigates.com/graphik/">Try out the version used by the Bureau of Investigative Journalism</a>.
@@ -63,11 +66,11 @@ A batch of stories, the result of collaboration with three Guardian journalists.
 To do this, names were scraped from UK Who's Who, the Electoral Commission's record of political donors, and the Sunday Times rich list. Given the many ways a name can be expressed and the poor quality of the leaked data, I built a small tool to compare different permutations of the scraped names together with the names in the leaked list. Running such comparisons on powerful Amazon EC2 machines sped up the process.
 </p>
 <p>
-<a href="http://www.theguardian.com/politics/2014/jul/08/offshore-secrets-wealthy-political-donors">Read the first in the series</a>, and then <a href="http://www.theguardian.com/uk-news/2014/jul/09/offshore-tax-dealings-celebrities-sportsmen-leaked-jersey-files">the last</a>.
+<a href="https://www.theguardian.com/politics/2014/jul/08/offshore-secrets-wealthy-political-donors">Read the first in the series</a>, and then <a href="https://www.theguardian.com/uk-news/2014/jul/09/offshore-tax-dealings-celebrities-sportsmen-leaked-jersey-files">the last</a>.
 </p>
 <h4>Reconcile</h4>
 <p>
-A tool to add new columns to your spreadsheet based on lookups to online services such as  <a href="https://opencorporates.com/">OpenCorporates</a>. For example, lets you take a spreadsheet of company names, automatically look up their registered company numbers, then using those numbers, produce a new list of directors at those companies. Such data could then potentially be imported into a graph database such as <a href="http://neo4j.com">Neo4j</a> for analysis.
+A tool written using Node for doing batch lookups against various online services. For example, it can be used to quickly convert a list of company names into a list of directors of those companies using the OpenCorporates API. Such data could then potentially be imported into a graph database such as <a href="https://neo4j.com">Neo4j</a> for analysis.
 </p>
 <p>
 <a href="https://github.com/maxharlow/reconcile/">View on Github</a>.
