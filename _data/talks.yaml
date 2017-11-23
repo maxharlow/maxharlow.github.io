@@ -1,0 +1,41 @@
+-   title: Building a culture of knowledge sharing in journalism
+    event: Dataharvest 2017
+    location: Mechelen, Belgium
+    date: 2017-05-19
+    details: |
+        As data becomes increasingly important to journalism reporters need to keep their skills up to date. However, newsrooms have less budget for training and conferences than ever before. This was a lightning talk on how [Journocoders](http://journocoders.com/) tries to solve these problems. [Video here.](https://www.youtube.com/watch?v=ZF6E4e4F5Po) [Slides here.](https://docs.google.com/presentation/d/1kRl3IP02R4zCsT3zimA1P-TVanbD_NFGxHKYtlOJNPI)
+
+-   title: 'The power of fuzzy: finding connections in a messy world'
+    event: CSV Conf 2017
+    location: Portland, USA
+    date: 2017-05-03
+    details: |
+        Like our reality, our data is often messy. Finding meaningful connections between such datasets often means using fuzzy matching algorithms. This was a high-level look at some of the most commonly used algorithms, their pros and cons, and how they are used in practice. [Slides here.](https://docs.google.com/presentation/d/1EkNCiJ2CwvDv_V_nXkBlcTRujhdUM2OtBsB3byxuKDQ)
+
+-   title: 'Data for investigations: beyond Excel'
+    event: Food Research Council Workshop 2015
+    location: London, UK
+    date: 2015-09-24
+    details: |
+        Though much data-led reporting is done in Excel, some can only be reported using other tools. This talk ran through a few stories which took different approaches. [Write-up here.](http://foodresearch.org.uk/2015/09/frc-holds-members-only-event-with-the-bureau-of-investigative-journalism-on-researching-influential-organisations) [Slides here.](https://docs.google.com/presentation/d/18mhM2yQ5OH3PfSilJRaHVXytOD08MeMcnFpHUZlvXrc)
+
+-   title: Muckrakers and tech makers
+    event: Dataharvest 2015
+    location: Brussels, Belgium
+    date: 2015-05-09
+    details: |
+        Communication difficulties are common between journalists and technologists. This was a talk with an investigative reporter on our experiences working together at the Guardian.
+
+-   title: 'Digital journalism: the news and tech'
+    event: Web We Want Festival 2014
+    location: London, UK
+    date: 2014-09-28
+    details: |
+        Panel discussing how news organisations have been challenged and transformed by the web, and how this has changed the way they interact with readers. [Video here.](https://www.youtube.com/watch?v=JB3l4lv6yiI)
+
+-   title: Using the Guardian's Content API
+    event: MediaHackDays 2014
+    location: Aarhus, Denmark
+    date: 2014-05-04
+    details: |
+        An introduction to the Guardian\'s [Content API](http://open-platform.theguardian.com/), which lets developers build their own applications using Guardian content. Also judge on a prize for the best use of the API. [Write-up here.](https://blog.wan-ifra.org/2014/05/04/app-to-game-ify-the-news-wins-mediahackdays)

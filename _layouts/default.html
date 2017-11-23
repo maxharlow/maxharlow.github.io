@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>{% if page.title %}{{ page.title | escape }} – {% endif %}Max Harlow</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="initial-scale=1"/>
+<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} – {% endif %}Max Harlow"/>
+<meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"/>
+<meta name="twitter:image" content="{{ '/me.png' | absolute_url }}"/>
+<meta name="twitter:creator" content="@maxharlow"/>
+<link rel="stylesheet" href="/style.css"/>
+</head>
+{{ content }}
+</html>

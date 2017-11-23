@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<body id="top">
+<a href="/blog">Back to blog</a>
+<article>
+<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %b %Y" }}</time>
+<h2>{{ page.title | escape }}</h2>
+<h3>By <a href="/">Max Harlow</a></h3>
+{{ content }}
+<footer>
+{{ site.description }}
+</footer>
+</article>
+</body>
