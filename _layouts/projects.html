@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<body id="top">
+<a href="/">Back to index</a>
+<section>
+<h2>Projects</h2>
+{{ content }}
+<ol>
+{% for project in site.data.projects %}
+<li>
+{% if project.link %}
+<h4><a href="{{ project.link }}">{{ project.title | escape }}</a></h4>
+{% else %}
+<h4>{{ project.title | escape }}</h4>
+{% endif %}
+<div>{{ project.details | markdownify }}</div>
+</li>
+{% endfor %}
+</ol>
+</section>
+</body>

@@ -1,0 +1,40 @@
+-   title: Introduction to code for journalists
+    location: London, UK
+    date: 2018-02-10
+    details: |
+        Want to take your first steps with code but not sure how to begin? Or want to learn how code is being used in the newsroom and if it can help you and your team? This weekend workshop is an introductory primer to learning to code, showing recent story examples, explaining the fundamental concepts in programming, and demystifying the jargon. [Book here.](https://tcij.org/courses/course-calendar/introduction-code-journalists)
+
+-   title: Exploring networks with Neo4j
+    event: CIJ Summer Conference 2017
+    location: London, UK
+    date: 2017-06-23
+    details: |
+        Graph database [Neo4j](https://neo4j.com/) has been used as part of an increasing number of investigative stories including the Panama Papers. This two-hour session was a hands-on introduction to the tool, examples of how it has been used, and a demonstration showing how to build a database of political donations matched with corporate data, revealing the networks involved.
+
+-   title: Code for journalists
+    event: CIJ Summer Conference 2017
+    location: London, UK
+    date: 2017-06-23
+    details: |
+        How can code help you or your team with investigations? This two-hour session was a hand-holding hands-on introduction to programming, showing recent examples of published stories and demystifying the jargon. Attendees were guided through the tools needed, including text editors and an introduction to the command line.
+
+-   title: Graph databases
+    event: Dataharvest 2017
+    location: Mechelen, Belgium
+    date: 2017-05-21
+    details: |
+        Data journalists tend to use relational databases -- data in table form -- using tools such as Excel or SQL to find stories. Graph databases are different, but incredibly useful for finding connections or patterns that would be difficult to spot otherwise. This two-hour session showed how to use graphs to identify relationships between people, organisations, and other networks.
+
+-   title: How to work with web developers (and what we wish you knew)
+    event: Guardian Masterclasses
+    location: London, UK
+    date: 2014-04-28
+    details: |
+        Good communication between management and techies can make the difference between a website or app that makes money and one that loses customers, but the culture divide can be vast. This evening course covered working methods, jargon, and how to brief to avoid tension between the business parts of an organisation and mysterious, headphone-wearing coders.
+
+-   title: How to work with web developers (and what we wish you knew)
+    event: Guardian Masterclasses
+    location: London, UK
+    date: 2013-07-22
+    details: |
+        Good communication between management and techies can make the difference between a website or app that makes money and one that loses customers, but the culture divide can be vast. This evening course covered working methods, jargon, and how to brief to avoid tension between the business parts of an organisation and mysterious, headphone-wearing coders.

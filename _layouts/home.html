@@ -1,0 +1,84 @@
+---
+layout: default
+---
+<body id="top">
+<header>
+<img src="me.png" alt=""/>
+<h1><a href="/">Max Harlow</a></h1><nav>
+{% if site.posts.size >= 3 %}
+<a href="#blog">Blog</a>
+•
+{% endif %}
+<a href="#projects">Projects</a>
+•
+<a href="#talks">Talks</a>
+•
+<a href="#teaching">Teaching</a>
+</nav>
+{{ content }}
+</header>
+<section id="contact">
+<ul>
+<li><a href="mailto:contact@maxharlow.com">contact@maxharlow.com</a></li>
+<li><a href="https://twitter.com/maxharlow">@maxharlow</a></li>
+<li><a href="https://github.com/maxharlow">github.com/maxharlow</a></li>
+</ul>
+</section>
+{% if site.posts.size >= 3 %}
+<section id="blog">
+<h3><a href="#blog">Blog</a></h3>
+<ol>
+{% for post in site.posts limit: 3 %}
+<li>
+<time>{{ post.date | date: "%-d %b %Y" }}</time>
+<h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+{% endfor %}
+</ol>
+<a href="/blog">Older entries</a>
+</section>
+{% endif %}
+<section id="projects">
+<h3><a href="#projects">Projects</a></h3>
+<ol>
+{% for project in site.data.projects limit: 4 %}
+<li>
+{% if project.link %}
+<h4><a href="{{ project.link }}">{{ project.title | escape }}</a></h4>
+{% else %}
+<h4>{{ project.title | escape }}</h4>
+{% endif %}
+<div>{{ project.details | markdownify }}</div>
+</li>
+{% endfor %}
+</ol>
+<a href="/projects">More projects</a>
+</section>
+<section id="talks">
+<h3><a href="#talks">Talks</a></h3>
+<ol>
+{% for talk in site.data.talks limit: 2 %}
+<li>
+<time>{{ talk.date | date: "%-d %b %Y" }}</time>
+<h4>{{ talk.title | escape }}</h4>
+<span>{{ talk.event }}</span><span>{{ talk.location }}</span>
+<div>{{ talk.details | markdownify }}</div>
+</li>
+{% endfor %}
+</ol>
+<a href="/talks">More talks</a>
+</section>
+<section id="teaching">
+<h3><a href="#teaching">Teaching</a></h3>
+<ol>
+{% for course in site.data.teaching limit: 2 %}
+<li>
+<time>{{ course.date | date: "%-d %b %Y" }}</time>
+<h4>{{ course.title | escape }}</h4>
+{% if course.event %}<span>{{ course.event }}</span>{% endif %}<span>{{ course.location }}</span>
+<div>{{ course.details | markdownify }}</div>
+</li>
+{% endfor %}
+</ol>
+<a href="/teaching">More teaching</a>
+</section>
+</body>

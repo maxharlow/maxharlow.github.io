@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<body id="top">
+<a href="/">Back to index</a>
+<section>
+<h2>Talks</h2>
+{{ content }}
+<ol>
+{% for talk in site.data.talks %}
+<li>
+<time>{{ talk.date | date: "%-d %b %Y" }}</time>
+<h4>{{ talk.title | escape }}</h4>
+<span>{{ talk.event }}</span><span>{{ talk.location }}</span>
+<div>{{ talk.details | markdownify }}</div>
+</li>
+{% endfor %}
+</ol>
+</section>
+</body>

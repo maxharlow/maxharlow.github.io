@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<body id="top">
+<a href="/">Back to index</a>
+<section>
+<h2>Blog</h2>
+{{ content }}
+<ol>
+{% for post in site.posts %}
+<li>
+<time>{{ post.date | date: "%-d %b %Y" }}</time>
+<h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+{% endfor %}
+</ol>
+</section>
+</body>

@@ -1,104 +1,306 @@
-@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700);
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
+html {
+    color: #111;
+    font: 10px 'Lora', serif;
+    line-height: 1.75;
+    text-rendering: optimizeLegibility;
+    text-decoration-skip: ink;
+}
 
 body {
-    max-width: 1000px;
-    margin: 20px auto 60px auto;
-    padding: 0 20px;
-    color: #222;
-    font-family: 'Crimson Text', serif;
-    font-size: 22px;
-    line-height: 1.25;
-    text-rendering: optimizeLegibility;
+    background: #fdfdfd;
+    margin: 0 0 6rem 0;
+    font-size: 1.8rem;
 }
 
-h1 {
-    margin: 20px 0;
-    font-size: 42px;
-}
-
-h3 {
-    margin: 40px 0 20px 0;
-    border-bottom: 1px solid #222;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-h3 ~ p {
-    margin: 0 0 0 30px;
-}
-
-h3 ~ h4 {
-    margin: 25px 0 0 30px;
-}
-
-h4 {
-    margin-top: 5px;
-    font-size: 22px;
-}
-
-p {
-    margin: 0;
-}
-
-p + p {
-    margin-top: 10px;
-}
-
-a:link,
-a:visited {
+a {
     color: navy;
+    -webkit-tap-highlight-color: rgba(255, 255, 0, 0.5);
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 a:active {
     background: yellow;
 }
 
-ul {
-    margin: 10px 0;
-    padding-left: 30px;
+header {
+    max-width: 84rem;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
-img {
-    width: 100%;
+header img {
+    display: block;
+    width: 40%;
+    margin: 3rem auto 0 auto;
+    border: 1rem solid white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
 }
 
-body > a[href='/'] {
+header h1 {
+    display: inline-block;
+    width: 50%;
+    margin: 4rem 0 0 0;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+header h1 a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+header nav {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 4rem 0 0 0;
+    font-family: 'Inconsolata', monospace;
+    text-align: right;
+    line-height: 2.7;
+}
+
+header nav a {
+    color: inherit;
+}
+
+header p {
+    margin: 3rem 0;
+}
+
+section {
+    max-width: 84rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    clear: left;
+}
+
+section h2 {
+    margin: 5rem 0;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+section h3 {
+    margin: 3rem 0 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+section h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+section > p {
+    margin: 2rem 0 2rem 2rem;
+}
+
+section > p:last-of-type {
+    margin-bottom: 4rem;
+}
+
+section > a {
+    display: block;
+    margin: 1rem 0 0 2rem;
+    border-top: 1px solid #ccc;
+    padding: 1rem 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.6rem;
+}
+
+section > a::after {
+    content: ' ↣';
+}
+
+section > a:active {
+    padding-left: 1rem;
+}
+
+section > ol {
+    margin: 0 0 0 2rem;
+    padding: 0;
+    list-style-type: none;
+}
+
+section > ol > li h4 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 3.2rem;
+}
+
+section > ol > li time {
     float: right;
+    clear: right;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 3.2rem;
 }
 
-body > a[href='/']::before {
-    content: '← ';
+section > ol > li span {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+section > ol > li span:nth-of-type(2)::before {
+    content: ' — ';
+    color: #bbb;
+}
+
+section > ol > li p {
+    margin: 2rem 0;
+}
+
+section > ol > li p:first-of-type {
+    margin-top: 0;
+}
+
+section > ol > li ul {
+    margin: 2rem 0;
+    padding-left: 6rem;
+    list-style-type: circle;
+}
+
+section#contact {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section#contact ul {
+    display: inline-block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 1rem 3rem;
+    list-style-type: none;
+}
+
+article {
+    max-width: 74rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    clear: left;
+}
+
+article h2 {
+    max-width: 90%;
+    margin: 0;
+    font-size: 3.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+article h3 {
+    margin: 1.5rem 0 0 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+article h3 a {
+    text-transform: uppercase;
 }
 
 article time {
-    font-size: 14px;
-    text-align: right;
+    display: inline-block;
+    margin: 0 0 2rem 0;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
 
-article header {
-    margin-bottom: 30px;
+article p,
+article pre {
+    margin: 3rem 0;
 }
 
-article header p {
-    color: gray;
+article pre code {
+    display: block;
+    padding: 16px;
+    overflow: auto;
 }
 
-footer {
-    float: right;
-    margin-top: 20px;
+article code {
+    background: #ededed;
+    border-radius: 3px;
+    padding: 0.25rem 0.6rem;
+    font-size: 85%;
+    line-height: 1.45;
 }
 
-@media (min-width: 800px) {
+article footer {
+    margin: 6rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
 
-    aside {
-        float: left;
-        clear: left;
-        width: 300px;
-        padding-right: 20px;
+article footer::before {
+    content: '';
+    display: block;
+    width: 20%;
+    height: 1px;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+body > a[href^='/'] {
+    float: left;
+    margin: 2rem;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.6rem;
+}
+
+body > a[href^='/']::before {
+    content: '↵ ';
+}
+
+@media (max-width: 720px) {
+
+    html {
+        font-size: 9px;
     }
 
-    section {
-        margin-left: 320px;
+    section > ol > li {
+        margin-top: 2rem;
+    }
+
+    section > ol > li:first-of-type {
+        margin-top: 0;
+    }
+
+    section > ol > li time {
+        float: none;
+        line-height: inherit;
+    }
+
+    header img {
+        width: 50%;
+        min-width: 26rem;
+    }
+
+    header h1 {
+        width: 100%;
+    }
+
+    header nav {
+        width: 100%;
+        margin: 3rem 0 0 0;
+        text-align: left;
+        line-height: 1;
     }
 
 }
