@@ -14,7 +14,7 @@
     link: https://github.com/maxharlow/reconcile
     state: Ongoing
     details: |
-        Enrich your data by doing batch lookups against various online services. For example, quickly convert a list of company names into a list of directors of those companies.
+        Enrich data by doing batch lookups against various online services. For example, quickly convert a list of company names into a list of directors of those companies.
 
 -   title: CSV Match
     link: https://github.com/maxharlow/csvmatch
