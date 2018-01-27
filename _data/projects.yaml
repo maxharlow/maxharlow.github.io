@@ -28,6 +28,12 @@
     details: |
         Produce pivot tables, much like those in Excel, but in the terminal.
 
+-   title: NDJson-to-CSV
+    link: https://github.com/maxharlow/ndjson-to-csv
+    state: Ongoing
+    details: |
+        Convert NDJson format data (such as [the Companies House PSC data](http://download.companieshouse.gov.uk/en_pscdata.html)) into CSV. Data is streamed, so files much bigger than the available memory can be converted. Takes into account nested Json objects.
+
 -   title: London Overground capacity display
     link: http://shoreditch.opencapacity.co/
     state: Completed
