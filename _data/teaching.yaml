@@ -1,3 +1,17 @@
+-   title: Finding needles in haystacks with fuzzy matching
+    event: Nicar 2018
+    location: Chicago, USA
+    date: 2018-03-10
+    details: |
+        Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class will show attendees how it typically fits into the investigative process, and give a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
+
+-   title: GitHub for journalists
+    event: Nicar 2018
+    location: Chicago, USA
+    date: 2018-03-08
+    details: |
+        Whether you find yourself collaborating on code, data, or prose, [GitHub](https://github.com/) can work for journalists. This class will cover what GitHub is, the benefits of using it, and how it is typically used both by people doing data analysis and by developers. Attendees will be shown how to create a first repository and make pull requests.
+
 -   title: Introduction to code for journalists
     location: London, UK
     date: 2018-02-10
