@@ -1,3 +1,17 @@
+-   title: Exploring networks with graph databases
+    event: Dataharvest 2018
+    location: Mechelen, Belgium
+    date: 2018-05-26
+    details: |
+        Graph databases are incredibly useful to find connections or patterns within our data. This was a hands-on introduction to graph database [Neo4j](https://neo4j.com/), showing examples of its use for investigative stories including the Panama and Paradise Papers, and teaching attendees how to build a graph of noteworthy individuals and match them with corporate data to see the networks involved.
+
+-   title: Finding needles in haystacks with fuzzy matching
+    event: Dataharvest 2018
+    location: Mechelen, Belgium
+    date: 2018-05-26
+    details: |
+        Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class showed attendees how it typically fits into the investigative process, and gave a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed. [Slides here.](https://docs.google.com/presentation/d/1NM99xTMx9LQxIOlM35p7tvdoNhHLDKcQH7FIXXb0_Gg)
+
 -   title: Finding needles in haystacks with fuzzy matching
     event: Nicar 2018
     location: Chicago, USA
