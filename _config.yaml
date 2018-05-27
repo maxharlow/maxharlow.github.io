@@ -1,4 +1,4 @@
 kramdown.syntax_highlighter_opts.disable: true
 permalink: /blog/:year/:title
 description: |
-    <a href="/">Max Harlow</a> is a software developer working with news and government organisations.
+    <a href="/">Max Harlow</a> is a newsroom developer at the Financial Times.
