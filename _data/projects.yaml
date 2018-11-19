@@ -4,11 +4,11 @@
     details: |
         Automatically identify potential story leads. Lets you create autonomous bots which poll data sources and run predefined data analysis. Results are then compared to the last time the bot ran -- and any additions or deletions trigger an email alert.
 
--   title: Graphik
-    link: https://github.com/maxharlow/graphik
+-   title: CSV Match
+    link: https://github.com/maxharlow/csvmatch
     state: Ongoing
     details: |
-        Create simple static charts quickly -- a tool for the non-technical. Can be easily customised to your organisation\'s house style using a simple stylesheet.
+        Finds matches in two spreadsheets, optionally using various fuzzy-matching algorithms. Used by organisations including the Guardian, the Times, and news agency Irin who used it to identify [a company the United Nations had a contract with who was also on its own sanctions list](https://www.irinnews.org/investigation/2016/09/02/exclusive-un-paying-blacklisted-diamond-company-central-african-republic).
 
 -   title: Reconcile
     link: https://github.com/maxharlow/reconcile
@@ -16,11 +16,11 @@
     details: |
         Enrich data by doing batch lookups against various online services. For example, quickly convert a list of company names into a list of directors of those companies.
 
--   title: CSV Match
-    link: https://github.com/maxharlow/csvmatch
+-   title: Graphik
+    link: https://github.com/maxharlow/graphik
     state: Ongoing
     details: |
-        Finds matches in two spreadsheets, optionally using various fuzzy-matching algorithms. Used by organisations including the Guardian, the Times, and news agency Irin who used it to identify [a company the United Nations had a contract with who was also on its own sanctions list](https://www.irinnews.org/investigation/2016/09/02/exclusive-un-paying-blacklisted-diamond-company-central-african-republic).
+        Create simple static charts quickly -- a tool for the non-technical. Can be easily customised to your organisation\'s house style using a simple stylesheet.
 
 -   title: CSV Pivot
     link: https://github.com/maxharlow/csvpivot
