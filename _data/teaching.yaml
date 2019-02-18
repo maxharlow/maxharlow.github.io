@@ -1,3 +1,17 @@
+-   title: Finding needles in haystacks with fuzzy matching
+    event: Nicar 2019
+    location: Newport Beach, USA
+    date: 2019-03-09
+    details: |
+        Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class showed attendees how it typically fits into the investigative process, and gave a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
+
+-   title: Introduction to code for journalists
+    event: CIJ Courses
+    location: London, UK
+    date: 2019-02-23
+    details: |
+        Want to take your first steps with code but not sure how to begin? Or want to learn how code is being used in the newsroom and if it can help you and your team? This weekend workshop is an introductory primer to learning to code, showing recent story examples, explaining the fundamental concepts in programming, and demystifying the jargon.
+
 -   title: Graph databases
     event: CIJ Summer Conference 2018
     location: London, UK
