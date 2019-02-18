@@ -40,7 +40,7 @@ layout: default
 <section id="projects">
 <h3><a href="#projects">Projects</a></h3>
 <ol>
-{% for project in site.data.projects limit: 4 %}
+{% for project in site.data.projects limit: 2 %}
 <li>
 {% if project.link %}
 <h4><a href="{{ project.link }}">{{ project.title | escape }}</a></h4>

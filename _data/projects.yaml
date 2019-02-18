@@ -1,9 +1,3 @@
--   title: Newsagent
-    link: https://github.com/maxharlow/newsagent
-    state: Ongoing
-    details: |
-        Automatically identify potential story leads. Lets you create autonomous bots which poll data sources and run predefined data analysis. Results are then compared to the last time the bot ran -- and any additions or deletions trigger an email alert.
-
 -   title: CSV Match
     link: https://github.com/maxharlow/csvmatch
     state: Ongoing
@@ -15,6 +9,12 @@
     state: Ongoing
     details: |
         Enrich data by doing batch lookups against various online services. For example, quickly convert a list of company names into a list of directors of those companies.
+
+-   title: Newsagent
+    link: https://github.com/maxharlow/newsagent
+    state: Ongoing
+    details: |
+        Automatically identify potential story leads. Lets you create autonomous bots which poll data sources and run predefined data analysis. Results are then compared to the last time the bot ran -- and any additions or deletions trigger an email alert.
 
 -   title: Graphik
     link: https://github.com/maxharlow/graphik
