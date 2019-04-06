@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<body id="top">
+<a href="/">Back to index</a>
+<section>
+<h2>Clippings</h2>
+{{ content }}
+<ol>
+{% for clipping in site.data.clippings %}
+<li>
+<time>{{ clipping.date | date: "%-d %b %Y" }}</time>
+{% if clipping.link %}
+<h4><a href="{{ clipping.link }}">{{ clipping.title | escape }}</a></h4>
+{% else %}
+<h4>{{ clipping.title | escape }}</h4>
+{% endif %}
+<span>{{ clipping.publication }}</span>
+<div>{{ clipping.details | markdownify }}</div>
+</li>
+{% endfor %}
+</ol>
+</section>
+</body>

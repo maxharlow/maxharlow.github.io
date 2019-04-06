@@ -51,11 +51,6 @@
     details: |
         Built a prototype mobile-first website at [Data4Change](https://www.data4chan.ge/) 2016 in Beirut, Lebanon working with Sudanese NGO [Kace](http://www.kacesudan.org/). The team developed a social media campaign based on Kace\'s research into quality of life as experienced by ordinary people in the country.
 
--   title: Offshore secrets
-    state: Completed
-    details: |
-        A batch of stories, the result of collaboration with three Guardian journalists. With a leaked list naming 53,000 people holding accounts in offshore bank Keinwort Benson, we found a number of public figures on the list though an automated fuzzy matching process I developed. [Read the first in the series](https://www.theguardian.com/politics/2014/jul/08/offshore-secrets-wealthy-political-donors), and then [the last](https://www.theguardian.com/uk-news/2014/jul/09/offshore-tax-dealings-celebrities-sportsmen-leaked-jersey-files).
-
 -   title: Who follows who
     link: https://github.com/maxharlow/who-follows-who
     state: Ongoing
