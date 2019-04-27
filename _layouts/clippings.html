@@ -16,7 +16,7 @@ layout: default
 <h4>{{ clipping.title | escape }}</h4>
 {% endif %}
 <span>{{ clipping.publication }}</span>
-<div>{{ clipping.details | markdownify }}</div>
+<div>{{ clipping.summary | append: clipping.contribution | markdownify }}</div>
 </li>
 {% endfor %}
 </ol>
