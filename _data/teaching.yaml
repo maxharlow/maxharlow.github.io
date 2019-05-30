@@ -3,7 +3,7 @@
     location: Mechelen, Belgium
     date: 2019-05-17
     details: |
-        Graph databases are incredibly useful to find connections or patterns within our data. This will be a hands-on introduction to graph database [Neo4j](https://neo4j.com/), showing examples of its use for investigative stories including the Panama and Paradise Papers, and teaching attendees how to build a graph of noteworthy individuals and match them with corporate data to see the networks involved.
+        Graph databases are incredibly useful to find connections or patterns within our data. This was a hands-on introduction to graph database [Neo4j](https://neo4j.com/), showing examples of its use for investigative stories including the Panama and Paradise Papers, and teaching attendees how to build a graph of noteworthy individuals and match them with corporate data to see the networks involved.
 
 -   title: Finding needles in haystacks with fuzzy matching
     event: Nicar 2019
