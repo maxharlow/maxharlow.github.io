@@ -8,7 +8,7 @@
     link: https://github.com/maxharlow/reconcile
     state: Ongoing
     details: |
-        Enrich data by doing batch lookups against various online services. For example, quickly convert a list of company names into a list of directors of those companies.
+        Enrich data, adding new columns based on lookups to online services. For example, take a spreadsheet of company numbers and turn it into a list of directors of those companies.
 
 -   title: Newsagent
     link: https://github.com/maxharlow/newsagent
