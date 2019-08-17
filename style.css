@@ -82,9 +82,10 @@ section {
 }
 
 section h2 {
-    margin: 5rem 0;
-    font-size: 2.8rem;
-    font-weight: 700;
+    margin: 0 0 4.5rem 0;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.4;
 }
 
 section h3 {
@@ -260,7 +261,7 @@ article footer::before {
 
 body > a[href^='/'] {
     float: left;
-    margin: 2rem;
+    margin: 2rem 0 3rem 2rem;
     font-family: 'Inconsolata', monospace;
     font-size: 1.6rem;
 }
