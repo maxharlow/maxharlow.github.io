@@ -56,20 +56,6 @@ header h1 a {
     text-decoration: inherit;
 }
 
-header nav {
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
-    margin: 4rem 0 0 0;
-    font-family: 'Inconsolata', monospace;
-    text-align: right;
-    line-height: 2.7;
-}
-
-header nav a {
-    color: inherit;
-}
-
 header p {
     margin: 3rem 0;
 }
