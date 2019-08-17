@@ -9,10 +9,16 @@ layout: default
 <ol>
 {% for course in site.data.teaching %}
 <li>
-<time>{{ course.date | date: "%-d %b %Y" }}</time>
 <h4>{{ course.title | escape }}</h4>
-{% if course.event %}<span>{{ course.event }}</span>{% endif %}<span>{{ course.location }}</span>
 <div>{{ course.details | markdownify }}</div>
+<ol>
+{% for run in course.runs %}
+<li>
+<time>{{ run.date | date: "%-d %b %Y" }}</time>
+{% if run.event %}<span>{{ run.event }}</span>{% endif %}<span>{{ run.location }}</span>
+</li>
+{% endfor %}
+</ol>
 </li>
 {% endfor %}
 </ol>

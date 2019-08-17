@@ -117,9 +117,13 @@ section > ol {
     list-style-type: none;
 }
 
+section > ol > li {
+    margin-bottom: 3rem;
+}
+
 section > ol > li h4 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 400;
     font-style: italic;
     line-height: 3.2rem;
@@ -128,6 +132,7 @@ section > ol > li h4 {
 section > ol > li time {
     float: right;
     clear: right;
+    margin-left: 1rem;
     font-family: 'Inconsolata', monospace;
     font-weight: 700;
     font-size: 1.4rem;
@@ -147,11 +152,14 @@ section > ol > li span:nth-of-type(2)::before {
 }
 
 section > ol > li p {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
-section > ol > li p:first-of-type {
-    margin-top: 0;
+section > ol > li ol {
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 3rem 0;
+    list-style-type: none;
 }
 
 section > ol > li ul {
@@ -172,6 +180,10 @@ section#contact ul {
     border: 1px solid #ccc;
     padding: 1rem 3rem;
     list-style-type: none;
+}
+
+section#blog > ol > li {
+    margin-bottom: 1rem;
 }
 
 article {
@@ -272,7 +284,21 @@ body > a[href^='/']::before {
 
     section > ol > li time {
         float: none;
-        line-height: inherit;
+        display: block;
+        margin: 0;
+        line-height: 1.75;
+    }
+
+    section > ol > li ol {
+        margin-top: 2rem;
+    }
+
+    section > ol > li ol time {
+        line-height: 1;
+    }
+
+    section > ol > li ol li + li {
+        margin-top: 1.5rem;
     }
 
     header img {
@@ -282,13 +308,6 @@ body > a[href^='/']::before {
 
     header h1 {
         width: 100%;
-    }
-
-    header nav {
-        width: 100%;
-        margin: 3rem 0 0 0;
-        text-align: left;
-        line-height: 1;
     }
 
 }
