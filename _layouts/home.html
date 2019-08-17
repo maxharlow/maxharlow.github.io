@@ -62,9 +62,9 @@ layout: default
 <ol>
 {% for course in site.data.teaching limit: 2 %}
 <li>
-<time>{{ course.date | date: "%-d %b %Y" }}</time>
+<time>{{ course.runs.first.date | date: "%-d %b %Y" }}</time>
 <h4>{{ course.title | escape }}</h4>
-{% if course.event %}<span>{{ course.event }}</span>{% endif %}<span>{{ course.location }}</span>
+{% if course.runs.first.event %}<span>{{ course.runs.first.event }}</span>{% endif %}<span>{{ course.runs.first.location }}</span>
 <div>{{ course.details | markdownify }}</div>
 </li>
 {% endfor %}

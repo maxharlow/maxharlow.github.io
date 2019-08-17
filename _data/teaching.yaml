@@ -1,118 +1,94 @@
 -   title: Introduction to code for journalists
-    event: CIJ Courses
-    location: London, UK
-    date: 2019-07-27
-    details: |
-        Want to take your first steps with code but not sure how to begin? Or want to learn how code is being used in the newsroom and if it can help you and your team? This weekend workshop gave an introductory primer to learning to code, showing recent story examples, explaining the fundamental concepts in programming, and demystifying the jargon.
+    details: Want to take your first steps with code but not sure how to begin? Or want to learn how code is being used in the newsroom and if it can help you and your team? This weekend workshop is an introductory primer to learning to code, showing recent story examples, explaining the fundamental concepts in programming, and demystifying the jargon.
+    runs:
+      - date: 2019-07-27
+        event: CIJ Courses
+        location: London, UK
 
--   title: Graph databases
-    event: CIJ Summer Conference 2019
-    location: London, UK
-    date: 2019-07-05
-    details: |
-        Graph databases are incredibly useful to find connections or patterns within our data. This was a hands-on introduction to graph database [Neo4j](https://neo4j.com/), showing examples of its use for investigative stories including the Panama and Paradise Papers, and teaching attendees how to build a graph of noteworthy individuals and match them with corporate data to see the networks involved.
+      - date: 2019-02-23
+        event: CIJ Courses
+        location: London, UK
 
--   title: Exploring networks with graph databases
-    event: Dataharvest 2019
-    location: Mechelen, Belgium
-    date: 2019-05-17
-    details: |
-        Graph databases are incredibly useful to find connections or patterns within our data. This was a hands-on introduction to graph database [Neo4j](https://neo4j.com/), showing examples of its use for investigative stories including the Panama and Paradise Papers, and teaching attendees how to build a graph of noteworthy individuals and match them with corporate data to see the networks involved.
-
--   title: Finding needles in haystacks with fuzzy matching
-    event: Nicar 2019
-    location: Newport Beach, USA
-    date: 2019-03-09
-    details: |
-        Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class showed attendees how it typically fits into the investigative process, and gave a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed. [Slides here.](https://docs.google.com/presentation/d/1djKgqFbkYDM8fdczFhnEJLwapzmt4RLuEjXkJZpKves)
-
--   title: Introduction to code for journalists
-    event: CIJ Courses
-    location: London, UK
-    date: 2019-02-23
-    details: |
-        Want to take your first steps with code but not sure how to begin? Or want to learn how code is being used in the newsroom and if it can help you and your team? This weekend workshop gave an introductory primer to learning to code, showing recent story examples, explaining the fundamental concepts in programming, and demystifying the jargon.
-
--   title: Graph databases
-    event: CIJ Summer Conference 2018
-    location: London, UK
-    date: 2018-06-29
-    details: |
-        Graph databases are incredibly useful to find connections or patterns within our data. This was a hands-on introduction to graph database [Neo4j](https://neo4j.com/), showing examples of its use for investigative stories including the Panama and Paradise Papers, and teaching attendees how to build a graph of noteworthy individuals and match them with corporate data to see the networks involved.
-
--   title: Finding needles in haystacks with fuzzy matching
-    event: CIJ Summer Conference 2018
-    location: London, UK
-    date: 2018-06-28
-    details: |
-        Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class showed attendees how it typically fits into the investigative process, and gave a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
+      - date: 2018-02-10
+        event: CIJ Courses
+        location: London, UK
 
 -   title: Exploring networks with graph databases
-    event: Dataharvest 2018
-    location: Mechelen, Belgium
-    date: 2018-05-26
-    details: |
-        Graph databases are incredibly useful to find connections or patterns within our data. This was a hands-on introduction to graph database [Neo4j](https://neo4j.com/), showing examples of its use for investigative stories including the Panama and Paradise Papers, and teaching attendees how to build a graph of noteworthy individuals and match them with corporate data to see the networks involved.
+    details: Graph databases are incredibly useful to find connections or patterns within our data. This is a hands-on introduction to graph database [Neo4j](https://neo4j.com/), showing examples of its use for investigative stories including the Panama and Paradise Papers, and teaching attendees how to build a graph of noteworthy individuals and match them with corporate data to see the networks involved.
+    runs:
+      - date: 2019-07-05
+        event: CIJ Summer Conference 2019
+        location: London, UK
+
+      - date: 2019-05-17
+        event: Dataharvest 2019
+        location: Mechelen, Belgium
+
+      - date: 2018-06-29
+        event: CIJ Summer Conference 2018
+        location: London, UK
+
+      - date: 2018-05-26
+        event: Dataharvest 2018
+        location: Mechelen, Belgium
+
+      - date: 2017-06-23
+        event: CIJ Summer Conference 2017
+        location: London, UK
+
+      - date: 2017-05-21
+        event: Dataharvest 2017
+        location: Mechelen, Belgium
 
 -   title: Finding needles in haystacks with fuzzy matching
-    event: Dataharvest 2018
-    location: Mechelen, Belgium
-    date: 2018-05-26
-    details: |
-        Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class showed attendees how it typically fits into the investigative process, and gave a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed. [Slides here.](https://docs.google.com/presentation/d/1NM99xTMx9LQxIOlM35p7tvdoNhHLDKcQH7FIXXb0_Gg)
+    details: Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class shows attendees how it typically fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
+    runs:
+      - date: 2019-03-10
+        event: Nicar 2019
+        location: Newport Beach, USA
+        slides: https://docs.google.com/presentation/d/1djKgqFbkYDM8fdczFhnEJLwapzmt4RLuEjXkJZpKves
 
--   title: Finding needles in haystacks with fuzzy matching
-    event: Nicar 2018
-    location: Chicago, USA
-    date: 2018-03-10
-    details: |
-        Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class showed attendees how it typically fits into the investigative process, and gave a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed. [Slides here.](https://docs.google.com/presentation/d/1Mzjv3Ok0g3E-6ll-__S10CZ90X4X7mbgif8UOD_0eoQ)
+      - date: 2019-03-09
+        event: Nicar 2019
+        location: Newport Beach, USA
+        slides: https://docs.google.com/presentation/d/1djKgqFbkYDM8fdczFhnEJLwapzmt4RLuEjXkJZpKves
+
+      - date: 2018-06-28
+        event: CIJ Summer Conference 2018
+        location: London, UK
+
+      - date: 2018-05-26
+        event: Dataharvest 2018
+        location: Mechelen, Belgium
+        slides: https://docs.google.com/presentation/d/1NM99xTMx9LQxIOlM35p7tvdoNhHLDKcQH7FIXXb0_Gg
+
+      - date: 2018-03-10
+        event: Nicar 2018
+        location: Chicago, USA
+        slides: https://docs.google.com/presentation/d/1Mzjv3Ok0g3E-6ll-__S10CZ90X4X7mbgif8UOD_0eoQ
 
 -   title: GitHub for journalists
-    event: Nicar 2018
-    location: Chicago, USA
-    date: 2018-03-08
-    details: |
-        Whether you find yourself collaborating on code, data, or prose, [GitHub](https://github.com/) can work for journalists. This class covered what GitHub is, the benefits of using it, and how it is typically used both by people doing data analysis and by developers. Attendees were shown how to create a first repository and make pull requests. [Slides here.](https://docs.google.com/presentation/d/1MbltRcOerktc-E26HMDjYj0BO9CTubQWu1Z2bB9CpVY)
-
--   title: Introduction to code for journalists
-    event: CIJ Courses
-    location: London, UK
-    date: 2018-02-10
-    details: |
-        Want to take your first steps with code but not sure how to begin? Or want to learn how code is being used in the newsroom and if it can help you and your team? This weekend workshop gave an introductory primer to learning to code, showing recent story examples, explaining the fundamental concepts in programming, and demystifying the jargon.
-
--   title: Exploring networks with Neo4j
-    event: CIJ Summer Conference 2017
-    location: London, UK
-    date: 2017-06-23
-    details: |
-        Graph database [Neo4j](https://neo4j.com/) has been used as part of an increasing number of investigative stories including the Panama Papers. This two-hour session was a hands-on introduction to the tool, examples of how it has been used, and a demonstration showing how to build a database of political donations matched with corporate data, revealing the networks involved.
+    details: Whether you find yourself collaborating on code, data, or prose, [GitHub](https://github.com/) can work for journalists. This class covered what GitHub is, the benefits of using it, and how it is typically used both by people doing data analysis and by developers. Attendees were shown how to create a first repository and make pull requests.
+    runs:
+      - date: 2018-03-08
+        event: Nicar 2018
+        location: Chicago, USA
+        slides: https://docs.google.com/presentation/d/1MbltRcOerktc-E26HMDjYj0BO9CTubQWu1Z2bB9CpVY
 
 -   title: Code for journalists
-    event: CIJ Summer Conference 2017
-    location: London, UK
-    date: 2017-06-23
-    details: |
-        How can code help you or your team with investigations? This two-hour session was a hand-holding hands-on introduction to programming, showing recent examples of published stories and demystifying the jargon. Attendees were guided through the tools needed, including text editors and an introduction to the command line.
-
--   title: Graph databases
-    event: Dataharvest 2017
-    location: Mechelen, Belgium
-    date: 2017-05-21
-    details: |
-        Data journalists tend to use relational databases -- data in table form -- using tools such as Excel or SQL to find stories. Graph databases are different, but incredibly useful for finding connections or patterns that would be difficult to spot otherwise. This two-hour session showed how to use graphs to identify relationships between people, organisations, and other networks.
+    details: How can code help you or your team with investigations? This two-hour session was a hand-holding hands-on introduction to programming, showing recent examples of published stories and demystifying the jargon. Attendees were guided through the tools needed, including text editors and an introduction to the command line. This later evolved into a weekend course.
+    runs:
+      - date: 2017-06-23
+        event: CIJ Summer Conference 2017
+        location: London, UK
 
 -   title: How to work with web developers (and what we wish you knew)
-    event: Guardian Masterclasses
-    location: London, UK
-    date: 2014-04-28
-    details: |
-        Good communication between management and techies can make the difference between a website or app that makes money and one that loses customers, but the culture divide can be vast. This evening course covered working methods, jargon, and how to brief to avoid tension between the business parts of an organisation and mysterious, headphone-wearing coders.
+    details: Good communication between management and techies can make the difference between a website or app that makes money and one that loses customers, but the culture divide can be vast. This evening course covered working methods, jargon, and how to brief to avoid tension between the business parts of an organisation and mysterious, headphone-wearing coders.
+    runs:
+      - date: 2014-04-28
+        event: Guardian Masterclasses
+        location: London, UK
 
--   title: How to work with web developers (and what we wish you knew)
-    event: Guardian Masterclasses
-    location: London, UK
-    date: 2013-07-22
-    details: |
-        Good communication between management and techies can make the difference between a website or app that makes money and one that loses customers, but the culture divide can be vast. This evening course covered working methods, jargon, and how to brief to avoid tension between the business parts of an organisation and mysterious, headphone-wearing coders.
+      - date: 2013-07-22
+        event: Guardian Masterclasses
+        location: London, UK
