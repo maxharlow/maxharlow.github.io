@@ -1,65 +1,88 @@
+-   title: Top health websites are sharing sensitive data with advertisers
+    publication: Financial Times
+    web:
+        - title: How top health websites are sharing sensitive data with advertisers
+          link: https://www.ft.com/content/0fbf4d8e-022b-11ea-be59-e49b2a136b8d
+          date: 2019-11-13
+          credit: byline
+          type: long read
+        - title: How health websites pass on your personal data
+          link: https://www.ft.com/video/417d3748-36f1-4c08-b7f8-c912de6e53f5
+          date: 2019-11-13
+          credit: byline
+          type: explainer video
+    print:
+        - title: Health websites share personal medical data with ad groups
+          date: 2019-11-14
+          credit: byline
+          slot: splash
+    summary: |
+        Revealed some of the UK's most popular health websites protected personal health data, including symptoms and drug names, is shared with hundreds of third parties including Google and Facebook.
+    contribution: |
+        I used a list of the top 100 UK health websites, ran it through a tool built by researchers to study web traffic, and analysed the results. For sites we wanted to look at in more detail I used a separate tool to look inside the data and metadata inside the requests that make up that traffic.
+
 -   title: Western AI researchers partnered with Chinese surveillance firms
     publication: Financial Times
-    date: 2019-04-19
-    link: https://www.ft.com/content/41be9878-61d9-11e9-b285-3acd5d43599e
+    web:
+        - title: Western AI researchers partnered with Chinese surveillance firms
+          link: https://www.ft.com/content/41be9878-61d9-11e9-b285-3acd5d43599e
+          date: 2019-04-19
+          credit: additional
+          type: news story
+        - title: Who’s using your face? The ugly truth about facial recognition
+          link: https://www.ft.com/content/cf19b956-60a2-11e9-b285-3acd5d43599e
+          date: 2019-04-19
+          credit: additional
+          type: magazine feature
     print: true
-    credit: additional
     summary: |
-        Revealed western artificial intelligence researchers have partnered with Chinese organisations tied to Beijing’s surveillance state, raising fears that a severe lack of oversight is leaving academics complicit in China's human rights abuses.
+        Revealed western artificial intelligence researchers partnered with organisations linked to Chinese state surveillence. Also found researchers using images of faces scraped from social media and CCTV.
     contribution: |
-        I analysed data compiled by campaigners to identify these collaborations either with Chinese companies known to be selling surveillance technology or academic institutions with ties to the Chinese military.
-
--   title: Who’s using your face? The ugly truth about facial recognition
-    publication: Financial Times
-    date: 2019-04-19
-    link: https://www.ft.com/content/cf19b956-60a2-11e9-b285-3acd5d43599e
-    print: true
-    credit: additional
-    summary: |
-        Revealed how facial recognition researchers are scraping our images from social media and CCTV.
-    contribution: |
-        I combined various sets of data compiled by the rearchers into something we could easily search and filter. I then analysed the compiled data to look at which companies, academics, and military institutions from different parts of the world were working with sets of images we were interested in.
+        I analysed academic papers to extract out authorship information so we could identify these collaborations. I then used the same technique to search for which papers mentioned working with sets of images known to have been collected without consent.
 
 -   title: Rules to curb UK money laundering widely flouted
     publication: Financial Times
-    date: 2019-02-14
-    link: https://www.ft.com/content/7e823936-2863-11e9-88a4-c32129756dd8
+    web:
+        - title: Rules to curb UK money laundering widely flouted
+          link: https://www.ft.com/content/7e823936-2863-11e9-88a4-c32129756dd8
+          date: 2019-02-14
+          credit: additional
+          type: news story
     print: true
-    credit: additional
     summary: |
-        Revealed that almost half of the UK corporate structures most associated with money laundering, Scottish Limited Partnerships (SLPs), were failing to comply with ownership regulations yet escaping punishment.
+        Revealed almost half of the UK corporate structures most associated with money laundering, Scottish Limited Partnerships (SLPs), failing to comply with ownership regulations -- yet escaping punishment.
     contribution: |
-        I analysed records published by Companies House, extracting out the type of each company, then joining those records with another set of data which lists declared beneficial owners.
+        I analysed records published by Companies House, extracting out the type of each company, then joining those records with another set of data listing the declared beneficial ownership to calculate rates of compilance.
 
 -   title: Sole outsource bidders win more public sector contracts
     publication: Financial Times
-    date: 2019-01-14
-    link: https://www.ft.com/content/0ecee894-15a5-11e9-a581-4ff78404524e
+    web:
+        - title: Sole outsource bidders win more public sector contracts
+          link: https://www.ft.com/content/0ecee894-15a5-11e9-a581-4ff78404524e
+          date: 2019-01-14
+          credit: byline
+          type: news story
     print: true
-    credit: byline
     summary: |
-        Revealed that close to one quarter of public sector contracts were awarded to sole bidders in 2018.
+        Revealed close to one quarter of public sector contracts awarded in 2018 went to sole bidders, either because contracts were given directly to a specific company without a competitive tender, or because there was a competitive tender but only one company applied.
     contribution: |
-        I analysed government contract records published by the EU and spoke with campaigners to identify this surprising figure.
-
--   title: "Offshore tax dealings: celebrities and sportsmen in leaked Jersey files"
-    publication: The Guardian
-    date: 2014-07-09
-    link: https://www.theguardian.com/uk-news/2014/jul/09/offshore-tax-dealings-celebrities-sportsmen-leaked-jersey-files
-    print: true
-    credit: none
-    summary: |
-        Revealed the offshore links of international celebrities, judges, sportsmen, businessmen, and aristocrats as well as donors to UK political parties.
-    contribution: |
-        I identified various public figures though a fuzzy matching process I developed and a leaked list naming 53,000 people holding accounts in the offshore bank Keinwort Benson.
+        I analysed government contract records published by the EU, transforming them from the format they are published in to something that could be interrogated. I also spoke with campaigners to understand the results.
 
 -   title: Offshore secrets of the UK's wealthy political donors
     publication: The Guardian
-    date: 2014-07-08
-    link: https://www.theguardian.com/politics/2014/jul/08/offshore-secrets-wealthy-political-donors
+    web:
+        - title: "Offshore secrets of the UK's wealthy political donors"
+          link: https://www.theguardian.com/politics/2014/jul/08/offshore-secrets-wealthy-political-donors
+          date: 2014-07-08
+          credit: none
+          type: day one news story
+        - title: "Offshore tax dealings: celebrities and sportsmen in leaked Jersey files"
+          link: https://www.theguardian.com/uk-news/2014/jul/09/offshore-tax-dealings-celebrities-sportsmen-leaked-jersey-files
+          date: 2014-07-09
+          credit: none
+          type: day two news story
     print: true
-    credit: none
     summary: |
-        Revealed the offshore links of some of the most prominent donors to UK political parties.
+        Revealed the offshore links of some of the most prominent donors to UK political parties, as well as international celebrities, judges, sportsmen, businessmen, and aristocrats.
     contribution: |
-        I identified people that had previously donated to political parties though a fuzzy matching process I developed and a leaked list naming 53,000 people holding accounts in the offshore bank Keinwort Benson.
+        I analysed a leaked list naming 53,000 people holding accounts in the offshore bank Keinwort Benson together with other lists of people of interest scraped from various sources using a fuzzy matching process I developed to account for different naming conventions.
