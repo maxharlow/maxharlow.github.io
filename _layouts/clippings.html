@@ -9,14 +9,18 @@ layout: default
 <ol>
 {% for clipping in site.data.clippings %}
 <li>
-<time>{{ clipping.date | date: "%-d %b %Y" }}</time>
-{% if clipping.link %}
-<h4><a href="{{ clipping.link }}">{{ clipping.title | escape }}</a></h4>
+<time>{{ clipping.web[0].date | date: "%-d %b %Y" }}</time>
+{% if clipping.web[0].link %}
+<h4><a href="{{ clipping.web[0].link }}">{{ clipping.title | escape }}</a></h4>
 {% else %}
 <h4>{{ clipping.title | escape }}</h4>
 {% endif %}
 <span>{{ clipping.publication }}</span>
-<div>{{ clipping.summary | append: clipping.contribution | markdownify }}</div>
+<div>
+{{ clipping.summary | append: clipping.contribution | markdownify }}
+{% assign supplementary = clipping.web | shift %}
+{% for story in supplementary %}<a href="{{ story.link }}">{{ story.type | capitalize }}</a>.{% endfor %}
+</div>
 </li>
 {% endfor %}
 </ol>
