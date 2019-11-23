@@ -6,15 +6,28 @@ layout: default
 <section>
 <h2>Projects</h2>
 {{ content }}
+<h5>Tools</h5>
 <ol>
-{% for project in site.data.projects %}
+{% assign tools = site.data.projects | where: 'type', 'tool' %}
+{% for tool in tools %}
 <li>
-{% if project.link %}
-<h4><a href="{{ project.link }}">{{ project.title | escape }}</a></h4>
+<h4><a href="{{ tool.link }}">{{ tool.title | escape }}</a></h4>
+<span>{{ tool.state }}</span>
+<div>{{ tool.details | markdownify }}</div>
+</li>
+{% endfor %}
+</ol>
+<h5>Prototypes</h5>
+<ol>
+{% assign prototypes = site.data.projects | where: 'type', 'prototype' %}
+{% for prototype in prototypes %}
+<li>
+{% if prototype.link %}
+<h4><a href="{{ prototype.link }}">{{ prototype.title | escape }}</a></h4>
 {% else %}
-<h4>{{ project.title | escape }}</h4>
+<h4>{{ prototype.title | escape }}</h4>
 {% endif %}
-<div>{{ project.details | markdownify }}</div>
+<div>{{ prototype.details | markdownify }}</div>
 </li>
 {% endfor %}
 </ol>
