@@ -15,6 +15,7 @@
         - title: Health websites share personal medical data with ad groups
           date: 2019-11-14
           credit: byline
+          type: news story
           slot: splash
     summary: |
         Revealed some of the UK's most popular health websites protected personal health data, including symptoms and drug names, is shared with hundreds of third parties including Google and Facebook.
@@ -33,8 +34,18 @@
           link: https://www.ft.com/content/cf19b956-60a2-11e9-b285-3acd5d43599e
           date: 2019-04-19
           credit: additional
-          type: magazine feature
-    print: true
+          type: feature
+    print:
+        - title: Fears grow over western AI ties to China
+          date: 2019-04-20
+          credit: additional
+          type: news story
+          slot: weekend inside
+        - title: The face race
+          date: 2019-04-20
+          credit: additional
+          type: feature
+          slot: weekend magazine
     summary: |
         Revealed western artificial intelligence researchers partnered with organisations linked to Chinese state surveillence. Also found researchers using images of faces scraped from social media and CCTV.
     contribution: |
@@ -48,7 +59,12 @@
           date: 2019-02-14
           credit: additional
           type: news story
-    print: true
+    print:
+        - title: Rules to curb flow of dirty money flouted
+          date: 2019-02-15
+          credit: additional
+          type: news story
+          slot: inside
     summary: |
         Revealed almost half of the UK corporate structures most associated with money laundering, Scottish Limited Partnerships (SLPs), failing to comply with ownership regulations -- yet escaping punishment.
     contribution: |
@@ -62,7 +78,12 @@
           date: 2019-01-14
           credit: byline
           type: news story
-    print: true
+    print:
+        - title: More lone bidders win public sector contracts
+          date: 2019-01-15
+          credit: byline
+          type: news story
+          slot: inside
     summary: |
         Revealed close to one quarter of public sector contracts awarded in 2018 went to sole bidders, either because contracts were given directly to a specific company without a competitive tender, or because there was a competitive tender but only one company applied.
     contribution: |
@@ -75,13 +96,23 @@
           link: https://www.theguardian.com/politics/2014/jul/08/offshore-secrets-wealthy-political-donors
           date: 2014-07-08
           credit: none
-          type: day one news story
+          type: news story
         - title: "Offshore tax dealings: celebrities and sportsmen in leaked Jersey files"
           link: https://www.theguardian.com/uk-news/2014/jul/09/offshore-tax-dealings-celebrities-sportsmen-leaked-jersey-files
           date: 2014-07-09
           credit: none
-          type: day two news story
-    print: true
+          type: news story
+    print:
+        - title: Tory minister connected to offshore donor
+          date: 2014-07-09
+          credit: none
+          type: news story
+          slot: splash
+        - title: Singer, tailor, sporting stars in tax files
+          date: 2014-07-10
+          credit: none
+          type: news story
+          slot: inside
     summary: |
         Revealed the offshore links of some of the most prominent donors to UK political parties, as well as international celebrities, judges, sportsmen, businessmen, and aristocrats.
     contribution: |
