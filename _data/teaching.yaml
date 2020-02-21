@@ -1,6 +1,10 @@
 -   title: Introduction to code for journalists
     details: Want to take your first steps with code but not sure how to begin? Or want to learn how code is being used in the newsroom and if it can help you and your team? This weekend workshop is an introductory primer to learning to code, showing recent story examples, explaining the fundamental concepts in programming, and demystifying the jargon.
     runs:
+      - date: 2020-02-08
+        event: CIJ Courses
+        location: London, UK
+
       - date: 2019-10-19
         event: CIJ Courses
         location: London, UK
@@ -51,6 +55,10 @@
 -   title: Finding needles in haystacks with fuzzy matching
     details: Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class shows attendees how it typically fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
     runs:
+      - date: 2020-03-05
+        event: Nicar 2020
+        location: New Orleans, USA
+
       - date: 2019-03-10
         event: Nicar 2019
         location: Newport Beach, USA
