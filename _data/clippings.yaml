@@ -18,7 +18,7 @@
           type: news story
           slot: splash
     summary: |
-        Revealed some of the UK's most popular health websites protected personal health data, including symptoms and drug names, is shared with hundreds of third parties including Google and Facebook.
+        Shortlisted for the [Sigma Awards](https://datajournalism.com/awards). Revealed some of the UK's most popular health websites protected personal health data, including symptoms and drug names, is shared with hundreds of third parties including Google and Facebook.
     contribution: |
         I used a list of the top 100 UK health websites, ran it through a tool built by researchers to study web traffic, and analysed the results. For sites we wanted to look at in more detail I used a separate tool to look inside the data and metadata inside the requests that make up that traffic.
 
