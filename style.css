@@ -197,6 +197,79 @@ section#blog > ol > li {
     margin-bottom: 1rem;
 }
 
+section.newsletter {
+    max-width: 46rem;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 0 4rem 4rem 4rem;
+}
+
+section.newsletter h2 {
+    margin: 3rem 0 0 0;
+    font-size: 5rem;
+    line-height: 1.2;
+}
+
+section.newsletter p {
+    margin: 3rem 0;
+}
+
+section.newsletter p:first-of-type {
+    margin: 2.5rem 0 3rem 0;
+}
+
+section.newsletter form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.newsletter form input {
+    width: 18rem;
+    margin: 0.25rem;
+    border: 1px solid #222;
+    border-radius: 3px;
+    padding: 1.2rem 1.6rem;
+    background: none;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.6rem;
+}
+
+section.newsletter form input:focus {
+    outline: none;
+}
+
+section.newsletter form button {
+    margin: 0.25rem;
+    border: 1px solid #222;
+    border-radius: 3px;
+    padding: 1.2rem 1.6rem;
+    background: #222;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+}
+
+section.newsletter form button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+section.newsletter form button:active:not(:disabled) {
+    background: yellow;
+    border-color: transparent;
+    color: #222;
+}
+
+section.newsletter form span {
+    display: block;
+    margin-top: 2.5rem;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.6rem;
+}
+
 article {
     max-width: 74rem;
     margin: 0 auto;
@@ -319,6 +392,16 @@ body > a[href^='/']::before {
 
     header h1 {
         width: 100%;
+    }
+
+    section.newsletter {
+        border: none;
+        padding: 0 2rem;
+    }
+
+    section.newsletter h2 {
+        padding-top: 1rem;
+        font-size: 4.5rem;
     }
 
 }
