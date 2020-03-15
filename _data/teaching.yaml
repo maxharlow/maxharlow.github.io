@@ -1,3 +1,35 @@
+-   title: Finding needles in haystacks with fuzzy matching
+    details: Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class shows attendees how it typically fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
+    runs:
+      - date: 2020-03-05
+        event: Nicar 2020
+        location: New Orleans, USA
+        slides: https://docs.google.com/presentation/d/1jGVplGx2Get0d3dTLcV6P4EF1lm4bwoINNE3bz9cykk
+
+      - date: 2019-03-10
+        event: Nicar 2019
+        location: Newport Beach, USA
+        slides: https://docs.google.com/presentation/d/1djKgqFbkYDM8fdczFhnEJLwapzmt4RLuEjXkJZpKves
+
+      - date: 2019-03-09
+        event: Nicar 2019
+        location: Newport Beach, USA
+        slides: https://docs.google.com/presentation/d/1djKgqFbkYDM8fdczFhnEJLwapzmt4RLuEjXkJZpKves
+
+      - date: 2018-06-28
+        event: CIJ Summer Conference 2018
+        location: London, UK
+
+      - date: 2018-05-26
+        event: Dataharvest 2018
+        location: Mechelen, Belgium
+        slides: https://docs.google.com/presentation/d/1NM99xTMx9LQxIOlM35p7tvdoNhHLDKcQH7FIXXb0_Gg
+
+      - date: 2018-03-10
+        event: Nicar 2018
+        location: Chicago, USA
+        slides: https://docs.google.com/presentation/d/1Mzjv3Ok0g3E-6ll-__S10CZ90X4X7mbgif8UOD_0eoQ
+
 -   title: Introduction to code for journalists
     details: Want to take your first steps with code but not sure how to begin? Or want to learn how code is being used in the newsroom and if it can help you and your team? This weekend workshop is an introductory primer to learning to code, showing recent story examples, explaining the fundamental concepts in programming, and demystifying the jargon.
     runs:
@@ -51,37 +83,6 @@
       - date: 2017-05-21
         event: Dataharvest 2017
         location: Mechelen, Belgium
-
--   title: Finding needles in haystacks with fuzzy matching
-    details: Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class shows attendees how it typically fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
-    runs:
-      - date: 2020-03-05
-        event: Nicar 2020
-        location: New Orleans, USA
-
-      - date: 2019-03-10
-        event: Nicar 2019
-        location: Newport Beach, USA
-        slides: https://docs.google.com/presentation/d/1djKgqFbkYDM8fdczFhnEJLwapzmt4RLuEjXkJZpKves
-
-      - date: 2019-03-09
-        event: Nicar 2019
-        location: Newport Beach, USA
-        slides: https://docs.google.com/presentation/d/1djKgqFbkYDM8fdczFhnEJLwapzmt4RLuEjXkJZpKves
-
-      - date: 2018-06-28
-        event: CIJ Summer Conference 2018
-        location: London, UK
-
-      - date: 2018-05-26
-        event: Dataharvest 2018
-        location: Mechelen, Belgium
-        slides: https://docs.google.com/presentation/d/1NM99xTMx9LQxIOlM35p7tvdoNhHLDKcQH7FIXXb0_Gg
-
-      - date: 2018-03-10
-        event: Nicar 2018
-        location: Chicago, USA
-        slides: https://docs.google.com/presentation/d/1Mzjv3Ok0g3E-6ll-__S10CZ90X4X7mbgif8UOD_0eoQ
 
 -   title: GitHub for journalists
     details: Whether you find yourself collaborating on code, data, or prose, [GitHub](https://github.com/) can work for journalists. This class covered what GitHub is, the benefits of using it, and how it is typically used both by people doing data analysis and by developers. Attendees were shown how to create a first repository and make pull requests.
