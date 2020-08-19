@@ -1,3 +1,22 @@
+-   title: An Essex council's £1bn borrowing spree to fund investment in solar power
+    publication: Financial Times
+    web:
+        - title: "Revealed: an Essex council's £1bn borrowing spree to fund investment in solar power"
+          link: https://www.ft.com/content/7a01b39d-a5df-4e3f-b9a6-dfcf9339368f
+          date: 22-05-2020
+          credit: byline
+          type: feature
+    print:
+        - title: Essex council borrows £1bn to fund solar deals
+          date: 23-05-2020
+          credit: byline
+          type: feature
+          slot: inside
+    summary: |
+        Revealed Thurrock council has used loans from 150 other local authorities and pension schemes to fund investments in renewable energy schemes.
+    contribution: |
+        I analysed Companies House records to establish the corporate structure of the main scheme we focused on, identifing leads and checking claims using public records, as well as some general reporting and research.
+
 -   title: Amazon accused of bias in West Bank settlements
     publication: Financial Times
     web:
