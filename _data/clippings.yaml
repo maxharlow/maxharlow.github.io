@@ -14,7 +14,6 @@
           slot: inside
     summary: |
         Revealed Amazon is offering free shipping to highly contentious Israeli settlements in the occupied West Bank, but only to their Palestinian neighbours if they list their country as Israel.
-
     contribution: |
         I scraped a list of addresses of Israeli settlements in the West Bank. I wrote some code to loop through each, enter it into Amazon, and see what shipping options were given.
 
@@ -41,6 +40,8 @@
         Shortlisted for the [Sigma Awards](https://datajournalism.com/awards). Revealed some of the UK's most popular health websites protected personal health data, including symptoms and drug names, is shared with hundreds of third parties including Google and Facebook.
     contribution: |
         I used a list of the top 100 UK health websites, ran it through a tool built by researchers to study web traffic, and analysed the results. For sites we wanted to look at in more detail I used a separate tool to look inside the data and metadata inside the requests that make up that traffic.
+    notes: |
+        Cited in [a report](https://www.commerce.senate.gov/services/files/2E721648-C400-4DB8-8A73-52959B4E0D6D) to the US senate committee on commerce, science, and transportation.
 
 -   title: Western AI researchers partnered with Chinese surveillance firms
     publication: Financial Times
