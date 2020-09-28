@@ -87,7 +87,7 @@
           type: feature
           slot: weekend magazine
     summary: |
-        Revealed western artificial intelligence researchers partnered with organisations linked to Chinese state surveillence. Also found researchers using images of faces scraped from social media and CCTV.
+        Revealed western artificial intelligence researchers partnered with organisations linked to Chinese state surveillance. Also found researchers using images of faces scraped from social media and CCTV.
     contribution: |
         I analysed academic papers to extract out authorship information so we could identify these collaborations. I then used the same technique to search for which papers mentioned working with sets of images known to have been collected without consent.
 
@@ -108,7 +108,7 @@
     summary: |
         Revealed almost half of the UK corporate structures most associated with money laundering, Scottish Limited Partnerships (SLPs), failing to comply with ownership regulations -- yet escaping punishment.
     contribution: |
-        I analysed records published by Companies House, extracting out the type of each company, then joining those records with another set of data listing the declared beneficial ownership to calculate rates of compilance.
+        I analysed records published by Companies House, extracting out the type of each company, then joining those records with another set of data listing the declared beneficial ownership to calculate rates of compliance.
 
 -   title: Sole outsource bidders win more public sector contracts
     publication: Financial Times
@@ -156,4 +156,4 @@
     summary: |
         Revealed the offshore links of some of the most prominent donors to UK political parties, as well as international celebrities, judges, sportsmen, businessmen, and aristocrats.
     contribution: |
-        I analysed a leaked list naming 53,000 people holding accounts in the offshore bank Keinwort Benson together with other lists of people of interest scraped from various sources using a fuzzy matching process I developed to account for different naming conventions.
+        I analysed a leaked list naming 53,000 people holding accounts in the offshore bank Kleinwort Benson together with other lists of people of interest scraped from various sources using a fuzzy matching process I developed to account for different naming conventions.
