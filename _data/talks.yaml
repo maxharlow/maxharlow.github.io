@@ -3,14 +3,14 @@
     location: Online
     date: 2020-09-29
     details: |
-        Some of the most interesting datasets started life 'unstructured' -- as documents, emails, web pages, images, videos, and other formats that look nothing like a spreadsheet. This session covers the challenges in extracting data from these formats, what tools are available, and approaches for verifying the results.
+        Some of the most interesting datasets started life 'unstructured' -- as documents, emails, web pages, images, videos, and other formats that look nothing like a spreadsheet. This session covered the challenges in extracting data from these formats, what tools are available, and approaches for verifying the results. [Slides here.](https://docs.google.com/presentation/d/1ULvs-iCiwVKlVaxFeNCHXjBQNvt6MLeOg-jbjuj6hno)
 
 -   title: Stories from the command line
     event: Global Investigative Journalism Conference 2019
     location: Hamburg, Germany
     date: 2019-09-27
     details: |
-        For those taking their first steps with data and code, the command line is essential. There are also many useful command line based applications -- understanding it opens the door to these power tools. This session covers how it works, the basic commands and concepts, and some of the tools which can be useful in data investigations, including story examples.
+        For those taking their first steps with data and code, the command line is essential. There are also many useful command line based applications -- understanding it opens the door to these power tools. This session covered how it works, the basic commands and concepts, and some of the tools which can be useful in data investigations, including story examples. [Slides here.](https://docs.google.com/presentation/d/1_6aZtaFdpJJkoj26pWLba3Pev5yrDNxR6k69sBU8oGg)
 
 -   title: Why code?
     event: CIJ Summer Conference 2019
