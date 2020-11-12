@@ -12,19 +12,19 @@
     details: |
         Enriches data, adding new columns based on lookups to online services. For example, taking a spreadsheet of company numbers and turning it into a list of directors of those companies.
 
+-   title: Newsagent
+    link: https://github.com/maxharlow/newsagent
+    type: tool
+    state: ongoing
+    details: |
+        Monitors data sources, alerts you when they change. Lets you watch any kind of online dataset, which is then periodically fetched, processed, and compared against the last time. Additions or deletions to that data trigger an alert being sent.
+
 -   title: NDJson-to-CSV
     link: https://github.com/maxharlow/ndjson-to-csv
     type: tool
     state: ongoing
     details: |
         Converts NDJson format data (such as [the Companies House PSC data](http://download.companieshouse.gov.uk/en_pscdata.html)) into CSV. Data is streamed, so files much bigger than the available memory can be converted. Takes into account nested Json objects.
-
--   title: Newsagent
-    link: https://github.com/maxharlow/newsagent
-    type: tool
-    state: past
-    details: |
-        Automatically identifies potential story leads. Lets you create autonomous bots which poll data sources and run predefined data analysis. Results are then compared to the last time the bot ran -- and any additions or deletions triggers an email alert.
 
 -   title: Graphik
     link: https://github.com/maxharlow/graphik
