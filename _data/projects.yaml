@@ -26,6 +26,13 @@
     details: |
         Converts NDJson format data (such as [the Companies House PSC data](http://download.companieshouse.gov.uk/en_pscdata.html)) into CSV. Data is streamed, so files much bigger than the available memory can be converted. Takes into account nested Json objects.
 
+-   title: Pantiler
+    link: https://github.com/maxharlow/pantiler
+    type: tool
+    state: ongoing
+    details: |
+        Converts geographic data into vector map tiles.
+
 -   title: Graphik
     link: https://github.com/maxharlow/graphik
     type: tool
