@@ -1,6 +1,10 @@
 -   title: Finding needles in haystacks with fuzzy matching
     details: Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class shows attendees how it typically fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
     runs:
+      - date: 2021-03-03
+        event: Nicar 2021
+        location: Online
+
       - date: 2020-03-05
         event: Nicar 2020
         location: New Orleans, USA
