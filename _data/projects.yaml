@@ -3,7 +3,7 @@
     type: tool
     state: ongoing
     details: |
-        Finds matches in two spreadsheets, optionally using various fuzzy-matching algorithms. Used by organisations including the Guardian, the Times, and news agency Irin who used it to identify [a company the United Nations had a contract with who was also on its own sanctions list](https://www.irinnews.org/investigation/2016/09/02/exclusive-un-paying-blacklisted-diamond-company-central-african-republic).
+        Finds matches in two spreadsheets, optionally using various fuzzy-matching algorithms. Used by organisations including the Guardian, the Times, and the New Humanitarian who used it to identify [a company the United Nations had a contract with who was also on its own sanctions list](https://www.thenewhumanitarian.org/investigations/2016/09/02/exclusive-un-paying-blacklisted-diamond-company-central-african-republic).
 
 -   title: Reconcile
     link: https://github.com/maxharlow/reconcile
