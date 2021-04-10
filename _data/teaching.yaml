@@ -1,3 +1,11 @@
+-   title: Scraping from scratch
+    details:
+        You may have come across acronyms like HTTP and HTML, but what do they mean, and what does it matter? This class explains the concepts that underpin how the web works -- which are simpler than you might think -- as well as how you can use this knowledge to extract out the information you need, and understand how exactly your stories reach your readers.
+    runs:
+      - date: 2021-05-18
+        event: Dataharvest Digital 2021
+        location: Online
+
 -   title: Finding needles in haystacks with fuzzy matching
     details: Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class shows attendees how it typically fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
     runs:
