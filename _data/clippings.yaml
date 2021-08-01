@@ -1,3 +1,43 @@
+-   title: Property donors provide one-quarter of funds given to Conservative party
+    publication: Financial Times
+    web:
+        - title: Property donors provide one-quarter of funds given to Tory party
+          link: https://www.ft.com/content/c5737fbb-2893-4a5a-be5e-965785f1a37b
+          date: 29-07-2021
+          credit: byline
+          type: news story
+    print:
+        - title: Property sector donations rise to quarter of all funds gifted to Tories
+          date: 30-07-2021
+          credit: byline
+          type: news story
+          slot: splash
+    summary: |
+        Revealed donations from individuals and companies in the property sector account for a quarter of donations made to the Conservative party, as critics say a planned liberalisation of England's planning laws benefits housing developers.
+    contribution: |
+        I linked Electoral Commission declarations to Companies House records, which have industry codes that identify those in the property sector.
+
+-   title: NHS shares English hospital data with dozens of companies
+    publication: Financial Times
+    web:
+        - title: NHS shares English hospital data with dozens of companies
+          link: https://www.ft.com/content/6f9f6f1f-e2d1-4646-b5ec-7d704e45149e
+          date: 23-07-2021
+          credit: byline
+          type: feature
+        - link: https://github.com/Financial-Times/nhs-data-access-analysis
+          type: data analysis
+    print:
+        - title: NHS shares English hospital medical records with dozens of companies
+          date: 24-07-2021
+          credit: byline
+          type: analysis
+          slot: inside
+    summary: |
+        Revealed many commercial groups including management consultancies and pharmaceutical companies have received years of detailed medical records from English hospitals, as the NHS considers third party access to GP records.
+    contribution: |
+        I extracted, combined, classified, and analysed five years' of data release records to determine who had received data, and whether opt-outs were being applied. I also produced the graphics used in the piece.
+
 -   title: SoftBank-backed lender OakNorth hit with almost £100m of defaults
     publication: Financial Times
     web:
@@ -5,7 +45,7 @@
           link: https://www.ft.com/content/d6645c7f-bb4e-4275-9a7e-9b1fa3a1317b
           date: 15-02-2021
           credit: byline
-          type: feature
+          type: news story
     print:
         - title: OakNorth hit with £100m of defaults
           date: 15-02-2021
