@@ -26,6 +26,13 @@
     details: |
         Converts NDJson format data (such as [the Companies House PSC data](http://download.companieshouse.gov.uk/en_pscdata.html)) into CSV. Data is streamed, so files much bigger than the available memory can be converted. Takes into account nested Json objects.
 
+-   title: CSV Fetch
+    link: https://github.com/maxharlow/csv-fetch
+    type: tool
+    state: ongoing
+    details: |
+        Downloads a list of URLs from a CSV spreadsheet.
+
 -   title: Pantiler
     link: https://github.com/maxharlow/pantiler
     type: tool
