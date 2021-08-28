@@ -1,3 +1,11 @@
+-   title: An introduction to data for investigations
+    details:
+        Where do you start using data in investigations? This training morning covers what data really is, developing a 'data state of mind' to spot opportunities, data sourcing including using unstructured data, hands-on scraping websites and interviewing datasets to get answers to your questions, as well as developing rigorous working practices that help you avoid mistakes.
+    runs:
+      - date: 2021-08-24
+        event: Birn Summer School 2021
+        location: Mlini, Croatia
+
 -   title: Scraping from scratch
     details:
         You may have come across acronyms like HTTP and HTML, but what do they mean, and what does it matter? This class explains the concepts that underpin how the web works -- which are simpler than you might think -- as well as how you can use this knowledge to extract out the information you need, and understand how exactly your stories reach your readers.
