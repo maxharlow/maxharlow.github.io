@@ -5,6 +5,7 @@
       - date: 2021-05-18
         event: Dataharvest Digital 2021
         location: Online
+        slides: https://docs.google.com/presentation/d/1w37f17FKrDp8sNxxzhncXFgSQ7v5pN4E1irewdiVBeA
 
 -   title: Finding needles in haystacks with fuzzy matching
     details: Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class shows attendees how it typically fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
@@ -12,6 +13,7 @@
       - date: 2021-03-03
         event: Nicar 2021
         location: Online
+        slides: https://docs.google.com/presentation/d/1vJnyllLERRBo5cV30wD3gA90yytScX5Jz1POw1IpTj0
 
       - date: 2020-03-05
         event: Nicar 2020
@@ -31,6 +33,7 @@
       - date: 2018-06-28
         event: CIJ Summer Conference 2018
         location: London, UK
+        slides: https://docs.google.com/presentation/d/16OZ-u0VfQo-1vc_oWRh_4fNRRlbN-DJu7SVtUT8Vjx4
 
       - date: 2018-05-26
         event: Dataharvest 2018
