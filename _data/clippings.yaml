@@ -1,3 +1,22 @@
+-   title: UK government's venture capital fund invests in yachts, yoghurt and jazz
+    publication: Financial Times
+    web:
+        - title: "Yachts to yoghurt: inside the UK government's venture capital portfolio"
+          link: https://www.ft.com/content/351cf280-0009-46aa-98dd-797dda764aa7
+          date: 08-10-2021
+          credit: byline
+          type: news story
+    print:
+        - title: State fund invests in yachts, yoghurt and jazz
+          date: 09-10-2021
+          credit: byline
+          type: news story
+          slot: inside
+    summary: |
+        Revealed the UK government's secretive venture capital fund has invested in a Netflix-style streaming service for jazz, a manufacturer of alcoholic teas, a yoghurt bar company, a talent agency for social media influencers and a yacht rental service.
+    contribution: |
+        I identified 200 companies, including those named in the piece by extracting text from documents.
+
 -   title: Property donors provide one-quarter of funds given to Conservatives
     publication: Financial Times
     web:
