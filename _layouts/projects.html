@@ -9,25 +9,25 @@ layout: default
 <h5>Tools</h5>
 <ol>
 {% assign tools = site.data.projects | where: 'type', 'tool' %}
-{% for tool in tools %}
+{% for project in tools %}
 <li>
-<h4><a href="{{ tool.link }}">{{ tool.title | escape }}</a></h4>
-<span>{{ tool.state }}</span>
-<div>{{ tool.details | markdownify }}</div>
+<h4><a href="{{ project.link }}">{{ project.title | escape }}</a></h4>
+<span>{{ project.state }}</span>
+<div>{{ project.details | markdownify }}</div>
 </li>
 {% endfor %}
 </ol>
-<h5>Prototypes</h5>
+<h5>Other projects</h5>
 <ol>
-{% assign prototypes = site.data.projects | where: 'type', 'prototype' %}
-{% for prototype in prototypes %}
+{% assign other = site.data.projects | where: 'type', 'other' %}
+{% for project in other %}
 <li>
-{% if prototype.link %}
-<h4><a href="{{ prototype.link }}">{{ prototype.title | escape }}</a></h4>
+{% if project.link %}
+<h4><a href="{{ project.link }}">{{ project.title | escape }}</a></h4>
 {% else %}
-<h4>{{ prototype.title | escape }}</h4>
+<h4>{{ project.title | escape }}</h4>
 {% endif %}
-<div>{{ prototype.details | markdownify }}</div>
+<div>{{ project.details | markdownify }}</div>
 </li>
 {% endfor %}
 </ol>

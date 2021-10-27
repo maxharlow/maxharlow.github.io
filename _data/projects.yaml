@@ -1,42 +1,42 @@
 -   title: CSV Match
     link: https://github.com/maxharlow/csvmatch
     type: tool
-    state: ongoing
+    state: current
     details: |
         Finds matches in two spreadsheets, optionally using various fuzzy-matching algorithms. Used by organisations including the Guardian, the Times, and the New Humanitarian who used it to identify [a company the United Nations had a contract with who was also on its own sanctions list](https://www.thenewhumanitarian.org/investigations/2016/09/02/exclusive-un-paying-blacklisted-diamond-company-central-african-republic).
 
 -   title: Reconcile
     link: https://github.com/maxharlow/reconcile
     type: tool
-    state: ongoing
+    state: current
     details: |
         Enriches data, adding new columns based on lookups to online services. For example, taking a spreadsheet of company numbers and turning it into a list of directors of those companies.
 
 -   title: Newsagent
     link: https://github.com/maxharlow/newsagent
     type: tool
-    state: ongoing
+    state: current
     details: |
         Monitors data sources, alerts you when they change. Lets you watch any kind of online dataset, which is then periodically fetched, processed, and compared against the last time. Additions or deletions to that data trigger an alert being sent.
 
 -   title: NDJson-to-CSV
     link: https://github.com/maxharlow/ndjson-to-csv
     type: tool
-    state: ongoing
+    state: current
     details: |
         Converts NDJson format data (such as [the Companies House PSC data](http://download.companieshouse.gov.uk/en_pscdata.html)) into CSV. Data is streamed, so files much bigger than the available memory can be converted. Takes into account nested Json objects.
 
 -   title: CSV Fetch
     link: https://github.com/maxharlow/csv-fetch
     type: tool
-    state: ongoing
+    state: current
     details: |
         Downloads a list of URLs from a CSV spreadsheet.
 
 -   title: Pantiler
     link: https://github.com/maxharlow/pantiler
     type: tool
-    state: ongoing
+    state: current
     details: |
         Converts geographic data into vector map tiles.
 
@@ -62,21 +62,21 @@
         Finds which Twitter accounts follow each other from a predefined list.
 
 -   title: London Overground capacity display
-    link: http://shoreditch.opencapacity.co/
-    type: prototype
-    state: completed
+    link: https://shoreditch.opencapacity.co/
+    type: other
+    state: past
     details: |
-        An experimental display showing the predicted space in train carriages. Deployed at Shoreditch High Street station for the last quarter of 2017. Built in collaboration between [Geovation](https://geovation.uk/) and [OpenCapacity](http://opencapacity.co/) with [TfL](https://tfl.gov.uk/).
+        An experimental display showing the predicted space in train carriages. Deployed at Shoreditch High Street station for the last quarter of 2017. Built in collaboration between [Geovation](https://geovation.uk/) and [OpenCapacity](https://opencapacity.co/) with [TfL](https://tfl.gov.uk/).
 
 -   title: Track the dot
-    type: prototype
-    state: completed
+    type: other
+    state: past
     details: |
-        Project managed an interdisciplinary creative team at [Data4Change](https://www.data4chan.ge/) 2017 in Kampala, Uganda working with Kenyan NGO [Chrips](http://www.chrips.or.ke/). My team developed a offline-first campaign based on Chrips\'s research on urban violence that targeted community leaders in north Kenya.
+        Project managed an interdisciplinary creative team at [Data4Change](https://www.data4chan.ge/) 2017 in Kampala, Uganda working with Kenyan NGO [Chrips](https://www.chrips.or.ke/). My team developed a offline-first campaign based on Chrips\'s research on urban violence that targeted community leaders in north Kenya.
 
 -   title: We are Sudan
     link: https://data4change.github.io/kace/action
-    type: prototype
-    state: completed
+    type: other
+    state: past
     details: |
-        A mobile-first website built at [Data4Change](https://www.data4chan.ge/) 2016 in Beirut, Lebanon working with Sudanese NGO [Kace](http://www.kacesudan.org/). Developed with a team as part of a social media campaign based on Kace\'s research into quality of life as experienced by ordinary people in the country.
+        A mobile-first website built at [Data4Change](https://www.data4chan.ge/) 2016 in Beirut, Lebanon working with Sudanese NGO [Kace](https://www.kacesudan.org/). Developed with a team as part of a social media campaign based on Kace\'s research into quality of life as experienced by ordinary people in the country.
