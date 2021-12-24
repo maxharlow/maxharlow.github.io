@@ -1,3 +1,22 @@
+-   title: Sleaze will be hard to clean up while the data remains so opaque
+    publication: Financial Times
+    web:
+        - title: Sleaze will be hard to clean up while the data remains so opaque
+          link: https://www.ft.com/content/8fbd120f-9377-4a7c-8c6f-c0b0a620b2f4
+          date: 19-12-2021
+          credit: byline
+          type: opinion
+    print:
+        - title: Sleaze will be hard to clean up while the data remains so opaque
+          date: 20-12-2021
+          credit: byline
+          type: opinion
+          slot: notebook
+    summary: |
+        Opinion piece describing how data published by the government and parliament, ostensibly for transparency, do not actually allow important questions to be answered, inhibiting accountability.
+    contribution: |
+        Informed by my experience working on an [earlier piece looking into MP's second jobs](https://www.ft.com/content/28b1fc88-4b1b-4754-ba15-e01ba37dd319).
+
 -   title: UK government's venture capital fund invests in yachts, yoghurt and jazz
     publication: Financial Times
     web:
