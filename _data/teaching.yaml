@@ -1,23 +1,14 @@
--   title: An introduction to data for investigations
-    details:
-        Where do you start using data in investigations? This training morning covers what data really is, developing a 'data state of mind' to spot opportunities, data sourcing including using unstructured data, hands-on scraping websites and interviewing datasets to get answers to your questions, as well as developing rigorous working practices that help you avoid mistakes.
-    runs:
-      - date: 2021-08-24
-        event: Birn Summer School 2021
-        location: Mlini, Croatia
-
--   title: Scraping from scratch
-    details:
-        You may have come across acronyms like HTTP and HTML, but what do they mean, and what does it matter? This class explains the concepts that underpin how the web works -- which are simpler than you might think -- as well as how you can use this knowledge to extract out the information you need, and understand how exactly your stories reach your readers.
-    runs:
-      - date: 2021-05-18
-        event: Dataharvest Digital 2021
-        location: Online
-        slides: https://docs.google.com/presentation/d/1w37f17FKrDp8sNxxzhncXFgSQ7v5pN4E1irewdiVBeA
-
 -   title: Finding needles in haystacks with fuzzy matching
-    details: Fuzzy matching has become an increasingly important part of data-led investigations as a way to identify connections between public figures, key people and companies that are relevant to a story. This class shows attendees how it typically fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
+    details: Fuzzy matching is a process for linking up names that are similar but not quite the same. It can be an important part of data-led investigations, identifing connections between key people and companies that are relevant to a story. This class covers how it fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
     runs:
+      - date: 2022-03-06
+        event: Nicar 2022
+        location: Atlanta, USA
+
+      - date: 2022-03-04
+        event: Nicar 2022
+        location: Atlanta, USA
+
       - date: 2021-03-03
         event: Nicar 2021
         location: Online
@@ -52,6 +43,21 @@
         event: Nicar 2018
         location: Chicago, USA
         slides: https://docs.google.com/presentation/d/1Mzjv3Ok0g3E-6ll-__S10CZ90X4X7mbgif8UOD_0eoQ
+
+-   title: An introduction to data for investigations
+    details: Where do you start using data in investigations? This training morning covers what data really is, developing a 'data state of mind' to spot opportunities, data sourcing including using unstructured data, hands-on scraping websites and interviewing datasets to get answers to your questions, as well as developing rigorous working practices that help you avoid mistakes.
+    runs:
+      - date: 2021-08-24
+        event: Birn Summer School 2021
+        location: Mlini, Croatia
+
+-   title: Scraping from scratch
+    details: You may have come across acronyms like HTTP and HTML, but what do they mean, and what does it matter? This class explains the concepts that underpin how the web works -- which are simpler than you might think -- as well as how you can use this knowledge to extract out the information you need, and understand how exactly your stories reach your readers.
+    runs:
+      - date: 2021-05-18
+        event: Dataharvest Digital 2021
+        location: Online
+        slides: https://docs.google.com/presentation/d/1w37f17FKrDp8sNxxzhncXFgSQ7v5pN4E1irewdiVBeA
 
 -   title: Introduction to code for journalists
     details: Want to take your first steps with code but not sure how to begin? Or want to learn how code is being used in the newsroom and if it can help you and your team? This weekend workshop is an introductory primer to learning to code, showing recent story examples, explaining the fundamental concepts in programming, and demystifying the jargon.
