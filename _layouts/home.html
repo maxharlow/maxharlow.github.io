@@ -14,9 +14,6 @@ layout: default
 <li><a href="https://github.com/maxharlow">github.com/maxharlow</a></li>
 </ul>
 </section>
-<section>
-<h3><a href="/clippings">Selected clippings</a>.</h3>
-</section>
 {% if site.posts.size >= 3 %}
 <section id="blog">
 <h3><a href="#blog">Blog</a></h3>
@@ -30,6 +27,28 @@ layout: default
 <a href="/blog">Older entries</a>
 </section>
 {% endif %}
+<section id="clippings">
+<h3><a href="#clippings">Clippings</a></h3>
+<ol>
+{% for clipping in site.data.clippings limit: 2 %}
+<li>
+<time>{{ clipping.web[0].date | date: "%-d %b %Y" }}</time>
+{% if clipping.web[0].link %}
+<h4><a href="{{ clipping.web[0].link }}">{{ clipping.title | escape }}</a></h4>
+{% else %}
+<h4>{{ clipping.title | escape }}</h4>
+{% endif %}
+<span>{{ clipping.publication }}</span>
+<div>
+{{ clipping.summary | append: clipping.contribution | markdownify }}
+{% assign supplementary = clipping.web | shift %}
+{% for story in supplementary %}<a href="{{ story.link }}">{{ story.type | capitalize }}</a>.{% endfor %}
+</div>
+</li>
+{% endfor %}
+</ol>
+<a href="/clippings">More clippings</a>
+</section>
 <section id="projects">
 <h3><a href="#projects">Projects</a></h3>
 <ol>
