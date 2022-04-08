@@ -1,3 +1,17 @@
+-   title: "Time travel for beginners: how to create and use web archives"
+    details: Ever relied upon an online source, only later to find it deleted or changed? This class covers how to get the most out of resources like the Wayback Machine -- what they're good for, and what they're not. We also cover when and how to build your own private archives of web content.
+    runs:
+      - date: 2022-05-21
+        event: Dataharvest 2022
+        location: Mechelen, Belgium
+
+-   title: "Web basics: how the web works, and how to scrape it"
+    details: Have you ever wondered how exactly your stories reach your readers? Ever wanted to know how to build a simple webpage? Or how to scrape information from the web? This session covers the principles of how web pages get onto your screen, and working with the two key web technologies of HTML and CSS. With Rui Barros.
+    runs:
+      - date: 2022-05-20
+        event: Dataharvest 2022
+        location: Mechelen, Belgium
+
 -   title: Finding needles in haystacks with fuzzy matching
     details: Fuzzy matching is a process for linking up names that are similar but not quite the same. It can be an important part of data-led investigations, identifing connections between key people and companies that are relevant to a story. This class covers how it fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
     runs:
