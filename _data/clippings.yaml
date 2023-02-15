@@ -1,3 +1,41 @@
+-   title: Qatar spent £190,000 on trips for British MPs over past five years
+    publication: Financial Times
+    web:
+        - title: Qatar spent £190,000 on trips for British MPs over past five years
+          link: https://www.ft.com/content/dedf649d-00b2-4874-8445-c8613824c780
+          date: 15-12-2022
+          credit: byline
+          type: news story
+    print:
+        - title: Qatar spent £190,000 on MPs' trips in past five years
+          date: 16-12-2022
+          credit: byline
+          type: news story
+          slot: inside
+    summary: |
+        Revealed that the Qatari government had spent more than £190,000 on trips for 37 British MPs over the past five years rasing the question about whether the charm offensive is to counter criticism of its human rights record.
+    contribution: |
+        I analysed transparency data published by the Electoral Commission, connecting trips with countries.
+
+-   title: How Oxford Street was overrun by sweet shops
+    publication: Financial Times
+    web:
+        - title: How Oxford Street was overrun by sweet shops
+          link: https://www.ft.com/candy
+          date: 17-08-2022
+          credit: byline
+          type: feature
+    print:
+        - title: Oxford St surge in sweet shops leaves sour taste
+          date: 19-08-2022
+          credit: byline
+          type: feature
+          slot: inside
+    summary: |
+        Tells the story of how London's premier shopping destination came to be overrun by brightly lit shops selling colourful American sweets.
+    contribution: |
+        I analysed corporate records and historic Google Streetview imagery, as well as the current situation of each of the units along the street, including speaking to those working there.
+
 -   title: Sleaze will be hard to clean up while the data remains so opaque
     publication: Financial Times
     web:
