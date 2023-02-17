@@ -1,3 +1,41 @@
+-   title: The sheikh’s empire driving Abu Dhabi’s meteoric stock market rise
+    publication: Financial Times
+    web:
+        - title: The sheikh’s empire driving Abu Dhabi’s meteoric stock market rise
+          link: https://www.ft.com/content/5c8c3dc3-d08a-498a-9ca9-c294db9a3180
+          date: 05-02-2023
+          credit: byline
+          type: feature
+    print:
+        - title: Sheikh's empire drives rise of Abu Dhabi bourse
+          date: 06-02-2022
+          credit: byline
+          type: feature
+          slot: inside
+    summary: |
+        Shows how a once marginal bourse has been transformed by a conglomerate whose growth bankers and analysts say is hard to explain.
+    contribution: |
+        I analysed data from key stocks to show how much of the total volume of trade was made up of large batches of identical numbers of shares traded simultaneously.
+
+-   title: Register of UK property held offshore lists 40 owners under sanctions
+    publication: Financial Times
+    web:
+        - title: Register of UK property held offshore lists 40 owners under sanctions
+          link: https://www.ft.com/content/226ebb6f-2285-474b-94c4-9053a8d54da9
+          date: 01-02-2023
+          credit: byline
+          type: news story
+    print:
+        - title: Sanction-hit Russians among owners of property held offshore
+          date: 03-02-2022
+          credit: byline
+          type: news story
+          slot: inside
+    summary: |
+        Revealed that nearly 40 individuals and entities declared as being under sanctions, including three Russian tycoons, hold British property through offshore vehicles.
+    contribution: |
+        I connected up corporate data with land records and analysed the results to identify notable individuals in the data.
+
 -   title: Qatar spent £190,000 on trips for British MPs over past five years
     publication: Financial Times
     web:
