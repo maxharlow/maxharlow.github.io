@@ -12,19 +12,12 @@
     details: |
         Enriches data, adding new columns based on lookups to online services. For example, taking a spreadsheet of company numbers and turning it into a list of directors of those companies.
 
--   title: Newsagent
-    link: https://github.com/maxharlow/newsagent
+-   title: Autocracy
+    link: https://github.com/maxharlow/autocracy
     type: tool
     state: current
     details: |
-        Monitors data sources, alerts you when they change. Lets you watch any kind of online dataset, which is then periodically fetched, processed, and compared against the last time. Additions or deletions to that data trigger an alert being sent.
-
--   title: NDJson-to-CSV
-    link: https://github.com/maxharlow/ndjson-to-csv
-    type: tool
-    state: current
-    details: |
-        Converts NDJson format data (such as [the Companies House PSC data](http://download.companieshouse.gov.uk/en_pscdata.html)) into CSV. Data is streamed, so files much bigger than the available memory can be converted. Takes into account nested Json objects.
+        Automates bulk OCR processing.
 
 -   title: CSV Fetch
     link: https://github.com/maxharlow/csv-fetch
@@ -33,10 +26,24 @@
     details: |
         Downloads a list of URLs from a CSV spreadsheet.
 
+-   title: NDJson-to-CSV
+    link: https://github.com/maxharlow/ndjson-to-csv
+    type: tool
+    state: current
+    details: |
+        Converts NDJson format data (such as [the Companies House PSC data](http://download.companieshouse.gov.uk/en_pscdata.html)) into CSV. Data is streamed, so files much bigger than the available memory can be converted. Takes into account nested Json objects.
+
+-   title: Newsagent
+    link: https://github.com/maxharlow/newsagent
+    type: tool
+    state: past
+    details: |
+        Monitors data sources, alerts you when they change. Lets you watch any kind of online dataset, which is then periodically fetched, processed, and compared against the last time. Additions or deletions to that data trigger an alert being sent.
+
 -   title: Pantiler
     link: https://github.com/maxharlow/pantiler
     type: tool
-    state: current
+    state: past
     details: |
         Converts geographic data into vector map tiles.
 
