@@ -1,6 +1,10 @@
 -   title: "Time travel for beginners: how to create and use web archives"
     details: Ever relied upon an online source, only later to find it deleted or changed? This class covers how to get the most out of resources like the Wayback Machine -- what they're good for, and what they're not. We also cover when and how to build your own private archives of web content.
     runs:
+      - date: 2023-09-22
+        event: Global Investigative Journalism Conference 2023
+        location: Gothenburg, Sweden
+
       - date: 2023-06-29
         event: CIJ Summer Conference 2023
         location: London, UK
