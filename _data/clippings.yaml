@@ -1,3 +1,73 @@
+-   title: Typo leaks millions of US military emails to Mali web operator
+    publication: Financial Times
+    web:
+        - title: Typo leaks millions of US military emails to Mali web operator
+          link: https://www.ft.com/content/ab62af67-ed2a-42d0-87eb-c762ac163cf0
+          date: 17-07-2023
+          credit: byline
+          type: news story
+    print:
+        - title: "US military emails sent to Mali by mistake after 'typo leak'"
+          date: 17-05-2022
+          credit: byline
+          type: news story
+          slot: inside
+    summary: |
+        Revealed that a common spelling error has misdirected sensitive Pentagon messages to a company running Mali’s internet domain.
+    contribution: |
+        I processed mailbox data so it could be searched.
+
+-   title: High Court judges invested in tax avoidance schemes
+    publication: Financial Times
+    web:
+        - title: High Court judges invested in tax avoidance schemes
+          link: https://www.ft.com/content/6d3b5582-5653-4dcb-8fbb-5ff5b6d0e0fa
+          date: 16-05-2023
+          credit: byline
+          type: news story
+    print:
+        - title: High Court judges face scrutiny for investing in tax avoidance schemes
+          date: 17-05-2022
+          credit: byline
+          type: news story
+          slot: inside
+    summary: |
+        Identified three High Court judges that invested in tax avoidance schemes, including one judge who has ruled on tax avoidance cases.
+    contribution: |
+        I matched up details of judges of the High Court with records from Companies House.
+
+-   title: 'Tracking Lady R: the covert voyage that allegedly took South African arms to Russia'
+    publication: Financial Times
+    web:
+        - title: 'Tracking Lady R: the covert voyage that allegedly took South African arms to Russia'
+          link: https://www.ft.com/content/6485f5a6-1188-4b2f-8f9b-dbedced1afbd
+          date: 14-05-2023
+          credit: byline
+          type: feature
+    summary: |
+        Reconstrution of the five-month journey of a ship that Washington says was used to secretly transport weapons to Russia.
+    contribution: |
+        I sourced and processed ship tracking data, identifying declared stops from and to Novorossiysk including a four day gap outside Cape Town during which the arms were allegedly picked up.
+
+-   title: 'From ‘paradise’ to hell: how a luxury residence in Turkey became an earthquake death trap'
+    publication: Financial Times
+    web:
+        - title: 'From ‘paradise’ to hell: how a luxury residence in Turkey became an earthquake death trap'
+          link: https://ig.ft.com/turkey-earthquake-apartment-collapse/
+          date: 28-02-2023
+          credit: byline
+          type: feature
+    print:
+        - title: "Turks demand answers after 'paradise' lost"
+          date: 01-03-2022
+          credit: byline
+          type: feature
+          slot: inside
+    summary: |
+        Visual investigation into an apartment complex that collapsed during the Turkey-Syria earthquake which came to symbolise the corruption in the Turkish construction sector.
+    contribution: |
+        I processed satellite imagery of development of the building and calculate its size. I also sourced CGI mock ups and images taken mid-constrution which show potential flaws.
+
 -   title: The sheikh’s empire driving Abu Dhabi’s meteoric stock market rise
     publication: Financial Times
     web:

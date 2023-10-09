@@ -5,6 +5,13 @@
     details: |
         Finds matches in two spreadsheets, optionally using various fuzzy-matching algorithms. Used by organisations including the Guardian, the Times, and the New Humanitarian who used it to identify [a company the United Nations had a contract with who was also on its own sanctions list](https://www.thenewhumanitarian.org/investigations/2016/09/02/exclusive-un-paying-blacklisted-diamond-company-central-african-republic).
 
+-   title: Ship Overviewer
+    link: https://observablehq.com/@maxharlow/ship-overviewer
+    type: tool
+    state: current
+    details: |
+        Processes ship tracking data and generates a summary of where the vessel has been, and identifies any gaps. It can also highlight where data has changed, which can be used to spot where transponder data has been spoofed.
+
 -   title: Reconcile
     link: https://github.com/maxharlow/reconcile
     type: tool
