@@ -1,3 +1,79 @@
+-   title: China’s machine tool exports to Russia soar after Ukraine invasion
+    publication: Financial Times
+    web:
+        - title: China’s advanced machine tool exports to Russia soar after Ukraine invasion
+          link: https://www.ft.com/content/d16c688d-9579-4f1d-a84f-ca29ca2f0bc0
+          date: 02-01-2024
+          credit: byline
+          type: feature
+    print:
+        - title: Chinese exports of machine tools to Russia surge
+          date: 03-01-2024
+          credit: byline
+          type: news story
+          slot: inside
+    summary: |
+        Revealed that Chinese suppliers now dominate the trade in ‘computer numerical control’ devices vital to Moscow’s military industries.
+    contribution: |
+        I matched up customs data on the imports of CNC machinery with data on companies sanctioned by the US Treasury.
+
+-   title: How China is tearing down Islam
+    publication: Financial Times
+    web:
+        - title: How China is tearing down Islam
+          link: https://ig.ft.com/china-mosques
+          date: 27-11-2023
+          credit: end-credit
+          type: feature
+    print:
+        - title: How China is tearing down Islam
+          date: 28-11-2023
+          credit: end-credit
+          type: news story
+          slot: big read
+    summary: |
+        Revealed that thousands of mosques across China have been architecturally altered or destroyed in a government effort to suppress Islamic culture.
+    contribution: |
+        I built a dataset of mosques in China based on data extracted from Baidu Maps. Along with others, I then tediously manually classified historic satellite imagery to create a database of what has changed.
+
+-   title: Three UK manufacturers given millions in free carbon allowances for closed factories
+    publication: Financial Times
+    web:
+        - title: Three UK manufacturers given millions in free carbon allowances for closed plants
+          link: https://www.ft.com/content/50229b7c-e937-482d-9923-dea25dea6fc7
+          date: 23-10-2023
+          credit: byline
+          type: news story
+    print:
+        - title: Big groups reap free carbon allowances despite idle factories
+          date: 24-10-2023
+          credit: none
+          type: news story
+          slot: inside
+    summary: |
+        Revealed that three companies won free carbon emission allowances worth millions of pounds for factories that were mothballed or slashing production, highlighting loopholes in the British net zero regime.
+    contribution: |
+        I matched up data on emissions with data on free allocations of carbon credits, allowing us to identify the biggest disparities.
+
+-   title: The mystery of the Adani coal imports that quietly doubled in value
+    publication: Financial Times
+    web:
+        - title: The mystery of the Adani coal imports that quietly doubled in value
+          link: https://www.ft.com/content/7aadb3d7-4a03-44ba-a01e-8ddd8bce29ed
+          date: 12-10-2023
+          credit: byline
+          type: feature
+    print:
+        - title: Adani and the mysterious coal price rises
+          date: 13-10-2023
+          credit: byline
+          type: feature
+          slot: big read
+    summary: |
+        Revealed that the politically connected Indian conglomerate appears to have imported billions of dollars of coal at prices well above market value.
+    contribution: |
+        I analysed customs records, matching up imports of coal at different levels of calorific content with the nearest index price, taking into account the shipping time.
+
 -   title: Typo leaks millions of US military emails to Mali web operator
     publication: Financial Times
     web:
@@ -8,7 +84,7 @@
           type: news story
     print:
         - title: "US military emails sent to Mali by mistake after 'typo leak'"
-          date: 17-05-2022
+          date: 18-07-2023
           credit: byline
           type: news story
           slot: inside
@@ -45,7 +121,7 @@
           credit: byline
           type: feature
     summary: |
-        Reconstrution of the five-month journey of a ship that Washington says was used to secretly transport weapons to Russia.
+        Reconstruction of the five-month journey of a ship that Washington says was used to secretly transport weapons to Russia.
     contribution: |
         I sourced and processed ship tracking data, identifying declared stops from and to Novorossiysk including a four day gap outside Cape Town during which the arms were allegedly picked up.
 
@@ -66,7 +142,7 @@
     summary: |
         Visual investigation into an apartment complex that collapsed during the Turkey-Syria earthquake which came to symbolise the corruption in the Turkish construction sector.
     contribution: |
-        I processed satellite imagery of development of the building and calculate its size. I also sourced CGI mock ups and images taken mid-constrution which show potential flaws.
+        I processed satellite imagery of development of the building and calculate its size. I also sourced CGI mock ups and images taken mid-construction which show potential flaws.
 
 -   title: The sheikh’s empire driving Abu Dhabi’s meteoric stock market rise
     publication: Financial Times
