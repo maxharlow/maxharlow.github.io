@@ -3,7 +3,7 @@
     type: tool
     state: current
     details: |
-        Finds matches in two spreadsheets, optionally using various fuzzy-matching algorithms. Used by organisations including the Guardian, the Times, and the New Humanitarian who used it to identify [a company the United Nations had a contract with who was also on its own sanctions list](https://www.thenewhumanitarian.org/investigations/2016/09/02/exclusive-un-paying-blacklisted-diamond-company-central-african-republic).
+        Finds fuzzy matches between CSV files. Used by news organisations including the Wall Street Journal [who used it to match up officials' shareholding declarations with names of companies their agency had oversight of](https://www.wsj.com/articles/capital-assets-11665673055) and the New Humanitarian [who used it to identify a company the United Nations had a contract with who was also on its own sanctions list](https://www.thenewhumanitarian.org/investigations/2016/09/02/exclusive-un-paying-blacklisted-diamond-company-central-african-republic).
 
 -   title: Ship Overviewer
     link: https://observablehq.com/@maxharlow/ship-overviewer
@@ -32,6 +32,13 @@
     state: current
     details: |
         Downloads a list of URLs from a CSV spreadsheet.
+
+-   title: Textmatch
+    link: https://github.com/maxharlow/textmatch
+    type: library
+    state: current
+    details: |
+        Finds fuzzy matches between datasets. The library that powers CSV Match.
 
 -   title: NDJson-to-CSV
     link: https://github.com/maxharlow/ndjson-to-csv
