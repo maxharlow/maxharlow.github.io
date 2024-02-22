@@ -32,7 +32,7 @@
           type: news story
           slot: big read
     summary: |
-        Revealed that thousands of mosques across China have been architecturally altered or destroyed in a government effort to suppress Islamic culture.
+        Shortlisted for the [Sigma Awards](https://www.sigmaawards.org/shortlist-2024). Revealed that thousands of mosques across China have been architecturally altered or destroyed in a government effort to suppress Islamic culture.
     contribution: |
         I built a dataset of mosques in China based on data extracted from Baidu Maps. Along with others, I then tediously manually classified historic satellite imagery to create a database of what has changed.
 
