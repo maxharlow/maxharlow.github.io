@@ -1,9 +1,17 @@
+
+-   title: "Scraping the unscrapable: advanced approaches to deal with complex sites and evade anti-scraping systems"
+    event: Dataharvest 2024
+    location: Mechelen, Belgium
+    date: 2024-06-01
+    details: |
+        Scraped data is often the backbone of an investigation, but some websites are more difficult to scrape than others. This session covers best practices for dealing with tricky sites, including coping with captchas, using proxy and other scraping services, plus the tradeoffs and costs of these approaches.
+
 -   title: How to be a (better) data editor
     event: Dataharvest 2022
     location: Mechelen, Belgium
     date: 2022-05-21
     details: |
-        As data journalism has become mainstream, more data editor positions have been created. But what makes a good data editor? In this panel we will discuss what it takes to do the job effectively, the different things it can involve, and the different routes to getting there. With Marie-Louise Timcke, Jan Strozyk, Helena Bengtsson, Eva Belmonte, and Dominik Balmer, moderated by me.
+        As data journalism has become mainstream, more data editor positions have been created. But what makes a good data editor? In this panel we discussed what it takes to do the job effectively, the different things it can involve, and the different routes to getting there. With Marie-Louise Timcke, Jan Strozyk, Helena Bengtsson, Eva Belmonte, and Dominik Balmer, moderated by me.
 
 -   title: Investigative data journalism
     event: Journalism by Numbers, Birkbeck University

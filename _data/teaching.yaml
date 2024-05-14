@@ -1,4 +1,15 @@
 
+-   title: Tracking changes with GitHub Actions
+    details: Sometimes how data changes can be more interesting than the data itself. For example, Wikipedia lets you see how a page has been edited - adding or cutting out certain bits of information. Using GitHub Actions, we can do something similar for any webpage. This session covers using Actions to regularly run a scraper, analysing the output, and identifying changes over time.
+    runs:
+      - date: 2024-05-31
+        event: Dataharvest 2024
+        location: Mechelen, Belgium
+
+      - date: 2023-06-02
+        event: Dataharvest 2023
+        location: Mechelen, Belgium
+
 -   title: Finding needles in haystacks with fuzzy matching
     details: Fuzzy matching is a process for linking up names that are similar but not quite the same. It can be an important part of data-led investigations, identifying connections between key people and companies that are relevant to a story. This class covers how it fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
     runs:
@@ -84,13 +95,6 @@
 
       - date: 2022-05-20
         event: Dataharvest 2022
-        location: Mechelen, Belgium
-
--   title: Tracking changes with GitHub Actions
-    details: Sometimes how data changes can be more interesting than the data itself. For example, Wikipedia lets you see how a page has been edited - adding or cutting out certain bits of information. Using GitHub Actions, we can do something similar for any webpage. This session covers using Actions to regularly run a scraper, analysing the output, and identifying changes over time.
-    runs:
-      - date: 2023-06-02
-        event: Dataharvest 2023
         location: Mechelen, Belgium
 
 -   title: An introduction to data for investigations
