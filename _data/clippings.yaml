@@ -1,3 +1,22 @@
+-   title: Labour diverts activists away from Lib Dem target seats
+    publication: Financial Times
+    web:
+        - title: Labour diverts activists away from Lib Dem target seats
+          link: https://www.ft.com/content/f60a0cfb-d2e2-4faa-83b2-977839056c95
+          date: 25-06-2024
+          credit: byline
+          type: news story
+    print:
+        - title: Labour diverts activists away from Lib Dem target seats
+          date: 26-06-2024
+          credit: byline
+          type: news story
+          slot: inside
+    summary: |
+        Rrevealed Labour's electoral strategy in the runup to the 2024 general election which would likely maximise Conservative losses in the south of England.
+    contribution: |
+        I scraped and analysed data from Labour's volunteering website, which directs activists to where they should campaign.
+
 -   title: China’s machine tool exports to Russia soar after Ukraine invasion
     publication: Financial Times
     web:
