@@ -50,54 +50,54 @@
 -   title: Newsagent
     link: https://github.com/maxharlow/newsagent
     type: tool
-    state: past
+    state: archived
     details: |
         Monitors data sources, alerts you when they change. Lets you watch any kind of online dataset, which is then periodically fetched, processed, and compared against the last time. Additions or deletions to that data trigger an alert being sent.
 
 -   title: Pantiler
     link: https://github.com/maxharlow/pantiler
     type: tool
-    state: past
+    state: archived
     details: |
         Converts geographic data into vector map tiles.
 
 -   title: Graphik
     link: https://github.com/maxharlow/graphik
     type: tool
-    state: past
+    state: archived
     details: |
         Creates simple static charts quickly -- a tool for the non-technical. Can be easily customised to a organisation\'s house style using a stylesheet.
 
 -   title: CSV Pivot
     link: https://github.com/maxharlow/csvpivot
     type: tool
-    state: past
+    state: archived
     details: |
         Produces pivot tables, much like those in Excel, but in the terminal.
 
 -   title: Who Follows Who
     link: https://github.com/maxharlow/who-follows-who
     type: tool
-    state: past
+    state: archived
     details: |
         Finds which Twitter accounts follow each other from a predefined list.
 
 -   title: London Overground capacity display
     link: https://shoreditch.opencapacity.co/
     type: other
-    state: past
+    state: archived
     details: |
         An experimental display showing the predicted space in train carriages. Deployed at Shoreditch High Street station for the last quarter of 2017. Built in collaboration between [Geovation](https://geovation.uk/) and [OpenCapacity](https://opencapacity.co/) with [TfL](https://tfl.gov.uk/).
 
 -   title: Track the dot
     type: other
-    state: past
+    state: archived
     details: |
         Project managed an interdisciplinary creative team at [Data4Change](https://www.data4chan.ge/) 2017 in Kampala, Uganda working with Kenyan NGO [Chrips](https://www.chrips.or.ke/). My team developed a offline-first campaign based on Chrips\'s research on urban violence that targeted community leaders in north Kenya.
 
 -   title: We are Sudan
     link: https://data4change.github.io/kace/action
     type: other
-    state: past
+    state: archived
     details: |
         A mobile-first website built at [Data4Change](https://www.data4chan.ge/) 2016 in Beirut, Lebanon working with Sudanese NGO [Kace](https://www.kacesudan.org/). Developed with a team as part of a social media campaign based on Kace\'s research into quality of life as experienced by ordinary people in the country.

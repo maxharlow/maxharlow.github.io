@@ -12,7 +12,9 @@ layout: default
 {% for project in tools %}
 <li>
 <h4><a href="{{ project.link }}">{{ project.title | escape }}</a></h4>
-<span>{{ project.state }}</span>
+{% if project.state != 'current' %}
+<span class = "state">{{ project.state }}</span>
+{% endif %}
 <div>{{ project.details | markdownify }}</div>
 </li>
 {% endfor %}
