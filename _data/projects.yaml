@@ -3,7 +3,7 @@
     type: tool
     state: current
     details: |
-        Finds fuzzy matches between CSV files. Used by news organisations including the Wall Street Journal [who used it to match up officials' shareholding declarations with names of companies their agency had oversight of](https://www.wsj.com/articles/capital-assets-11665673055) and the New Humanitarian [who used it to identify a company the United Nations had a contract with who was also on its own sanctions list](https://www.thenewhumanitarian.org/investigations/2016/09/02/exclusive-un-paying-blacklisted-diamond-company-central-african-republic).
+        Finds fuzzy matches between CSV files. Based on [Textmatch](https://github.com/maxharlow/textmatch), a Python library I also maintain. Has been used by news organisations including the Wall Street Journal [who used it to match up officials' shareholding declarations with names of companies their agency had oversight of](https://www.wsj.com/articles/capital-assets-11665673055) and the New Humanitarian [who used it to identify a company the United Nations had a contract with who was also on its own sanctions list](https://www.thenewhumanitarian.org/investigations/2016/09/02/exclusive-un-paying-blacklisted-diamond-company-central-african-republic).
 
 -   title: Ship Overviewer
     link: https://observablehq.com/@maxharlow/ship-overviewer
