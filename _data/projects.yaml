@@ -40,12 +40,19 @@
     details: |
         Finds fuzzy matches between datasets. The library that powers CSV Match.
 
--   title: NDJson-to-CSV
-    link: https://github.com/maxharlow/ndjson-to-csv
+-   title: Entabulate
+    link: https://github.com/maxharlow/entabulate
     type: tool
     state: current
     details: |
-        Converts NDJson format data (such as [the Companies House PSC data](http://download.companieshouse.gov.uk/en_pscdata.html)) into CSV. Data is streamed, so files much bigger than the available memory can be converted. Takes into account nested Json objects.
+        Converts Json files to CSV. Supports Json Lines (such as [the Companies House PSC data](https://download.companieshouse.gov.uk/en_pscdata.html)) and folders with nested Json files. Can also output Json Lines. Data is streamed, so files much bigger than the available memory can be converted. Takes into account nested Json objects.
+
+-   title: NDJson-to-CSV
+    link: https://github.com/maxharlow/ndjson-to-csv
+    type: tool
+    state: archived
+    details: |
+        Superseded by Entabulate.
 
 -   title: Newsagent
     link: https://github.com/maxharlow/newsagent
