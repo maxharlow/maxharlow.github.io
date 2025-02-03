@@ -1,21 +1,15 @@
 
--   title: Tracking changes with GitHub Actions
-    details: Sometimes how data changes can be more interesting than the data itself. For example, Wikipedia lets you see how a page has been edited - adding or cutting out certain bits of information. Using GitHub Actions, we can do something similar for any webpage. This session covers using Actions to regularly run a scraper, analysing the output, and identifying changes over time.
-    runs:
-      - date: 2024-05-31
-        event: Dataharvest 2024
-        location: Mechelen, Belgium
-
-      - date: 2023-06-02
-        event: Dataharvest 2023
-        location: Mechelen, Belgium
-
 -   title: Finding needles in haystacks with fuzzy matching
     details: Fuzzy matching is a process for linking up names that are similar but not quite the same. It can be an important part of data-led investigations, identifying connections between key people and companies that are relevant to a story. This class covers how it fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
     runs:
+      - date: 2025-03-07
+        event: Nicar 2025
+        location: Minneapolis, USA
+
       - date: 2024-03-08
         event: Nicar 2024
         location: Baltimore, USA
+        slides: https://docs.google.com/presentation/d/1XvU_ooWQLLWvK88ehVIBcQqiaqpwxDHXNkkqZ9kVS_8
 
       - date: 2023-03-03
         event: Nicar 2023
@@ -66,6 +60,17 @@
         event: Nicar 2018
         location: Chicago, USA
         slides: https://docs.google.com/presentation/d/1Mzjv3Ok0g3E-6ll-__S10CZ90X4X7mbgif8UOD_0eoQ
+
+-   title: Tracking changes with GitHub Actions
+    details: Sometimes how data changes can be more interesting than the data itself. For example, Wikipedia lets you see how a page has been edited - adding or cutting out certain bits of information. Using GitHub Actions, we can do something similar for any webpage. This session covers using Actions to regularly run a scraper, analysing the output, and identifying changes over time.
+    runs:
+      - date: 2024-05-31
+        event: Dataharvest 2024
+        location: Mechelen, Belgium
+
+      - date: 2023-06-02
+        event: Dataharvest 2023
+        location: Mechelen, Belgium
 
 -   title: "Time travel for beginners: how to create and use web archives"
     details: Ever relied upon an online source, only later to find it deleted or changed? This class covers how to get the most out of resources like the Wayback Machine -- what they're good for, and what they're not. We also cover when and how to build your own private archives of web content.
