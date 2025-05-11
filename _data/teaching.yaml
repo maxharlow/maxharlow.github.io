@@ -1,10 +1,24 @@
 
+-   title: "Scraping the unscrapable: advanced approaches to deal with complex sites and evade anti-scraping systems"
+    details: |
+        Scraped data is often the backbone of an investigation, but some websites are more difficult to scrape than others. This session covers best practices for dealing with tricky sites, including coping with captchas, using proxy and other scraping services, plus the tradeoffs and costs of these approaches.
+    runs:
+     - date: 2025-05-24
+       event: Dataharvest 2025
+       location: Mechelen, Belgium
+
+     - date: 2024-06-01
+       event: Dataharvest 2024
+       location: Mechelen, Belgium
+       slides: https://docs.google.com/presentation/d/1sJ-SnhaVQujjvS-dPYrjK7WjdbFGORCmlxVYU3vyF1I
+
 -   title: Finding needles in haystacks with fuzzy matching
     details: Fuzzy matching is a process for linking up names that are similar but not quite the same. It can be an important part of data-led investigations, identifying connections between key people and companies that are relevant to a story. This class covers how it fits into the investigative process, and includes a practical introduction to using the [CSV Match](https://github.com/maxharlow/csvmatch) tool I developed.
     runs:
       - date: 2025-03-07
         event: Nicar 2025
         location: Minneapolis, USA
+        slides: https://docs.google.com/presentation/d/1hK0wmBRbnpenbVKgd7Fd97dxWi_q3Wkps10ZFT-fC14
 
       - date: 2024-03-08
         event: Nicar 2024

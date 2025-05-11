@@ -1,11 +1,4 @@
 
--   title: "Scraping the unscrapable: advanced approaches to deal with complex sites and evade anti-scraping systems"
-    event: Dataharvest 2024
-    location: Mechelen, Belgium
-    date: 2024-06-01
-    details: |
-        Scraped data is often the backbone of an investigation, but some websites are more difficult to scrape than others. This session covers best practices for dealing with tricky sites, including coping with captchas, using proxy and other scraping services, plus the tradeoffs and costs of these approaches.
-
 -   title: How to be a (better) data editor
     event: Dataharvest 2022
     location: Mechelen, Belgium
