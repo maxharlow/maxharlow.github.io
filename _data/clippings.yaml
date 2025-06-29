@@ -1,3 +1,17 @@
+-   title: Britain counts the mounting cost of taxing wealthy 'non-doms'
+    publication: Bloomberg News
+    web:
+        - title: Britain counts the mounting cost of taxing wealthy 'non-doms'
+          link: https://www.bloomberg.com/news/features/2025-06-11/wealth-exodus-leaves-britain-counting-cost-of-taxing-non-doms
+          date: 11-06-2025
+          credit: byline
+          type: feature
+          slot: big take
+    summary: |
+        A look at the effects of the Labour government's tax changes targeting the wealthy, and whether they are likely to achieve their aim of bringing in more tax revenue.
+    contribution: |
+        I analysed filings from Companies House to identify when and how business leaders had changed their country of residence over the previous four years.
+
 -   title: Labour diverts activists away from Lib Dem target seats
     publication: Financial Times
     web:
@@ -13,7 +27,7 @@
           type: news story
           slot: inside
     summary: |
-        Rrevealed Labour's electoral strategy in the runup to the 2024 general election which would likely maximise Conservative losses in the south of England.
+        Revealed Labour's electoral strategy in the runup to the 2024 general election which would likely maximise Conservative losses in the south of England.
     contribution: |
         I scraped and analysed data from Labour's volunteering website, which directs activists to where they should campaign.
 
