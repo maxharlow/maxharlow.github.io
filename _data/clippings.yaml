@@ -1,3 +1,17 @@
+-   title: Tangled web of loans brought down a British property empire
+    publication: Bloomberg News
+    web:
+        - title: Tangled web of loans brought down a British property empire
+          link: https://www.bloomberg.com/news/features/2026-03-26/mfs-paresh-raja-s-property-empire-collapse-reveals-private-markets-blind-spot?srnd=undefined
+          date: 26-03-2026
+          credit: byline
+          type: feature
+          slot: big take
+    summary: |
+        A look into the collapse of UK lender Market Financial Solutions, which left lenders facing up to $1.7bn of losses.
+    contribution: |
+        I analysed corporate filings, finding that much of their lending went to companies controlled by five people -- many sharing a registered address with MFS. I also found hundreds of the properties these loans were secured on had multiple mortgages.
+
 -   title: Britain counts the mounting cost of taxing wealthy 'non-doms'
     publication: Bloomberg News
     web:
@@ -10,7 +24,7 @@
     summary: |
         A look at the effects of the Labour government's tax changes targeting the wealthy, and whether they are likely to achieve their aim of bringing in more tax revenue.
     contribution: |
-        I analysed filings from Companies House to identify when and how business leaders had changed their country of residence over the previous four years.
+        I analysed corporate filings to identify when and how business leaders had changed their country of residence over the previous four years.
 
 -   title: Labour diverts activists away from Lib Dem target seats
     publication: Financial Times
