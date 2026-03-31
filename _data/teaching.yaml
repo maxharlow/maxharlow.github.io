@@ -3,6 +3,10 @@
     details: |
         Scraped data is often the backbone of an investigation, but some websites are more difficult to scrape than others. This session covers best practices for dealing with tricky sites, including coping with captchas, using proxy and other scraping services, plus the tradeoffs and costs of these approaches.
     runs:
+     - date: 2026-05-29
+       event: Dataharvest 2026
+       location: Mechelen, Belgium
+
      - date: 2025-05-24
        event: Dataharvest 2025
        location: Mechelen, Belgium
