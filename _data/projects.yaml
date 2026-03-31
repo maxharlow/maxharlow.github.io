@@ -5,26 +5,12 @@
     details: |
         Finds fuzzy matches between CSV files. Based on [Textmatch](https://github.com/maxharlow/textmatch), a Python library I also maintain. Has been used by news organisations including the Wall Street Journal [who used it to match up officials' shareholding declarations with names of companies their agency had oversight of](https://www.wsj.com/articles/capital-assets-11665673055) and the New Humanitarian [who used it to identify a company the United Nations had a contract with who was also on its own sanctions list](https://www.thenewhumanitarian.org/investigations/2016/09/02/exclusive-un-paying-blacklisted-diamond-company-central-african-republic).
 
--   title: Ship Overviewer
-    link: https://observablehq.com/@maxharlow/ship-overviewer
-    type: tool
-    state: current
-    details: |
-        Processes ship tracking data and generates a summary of where the vessel has been, and identifies any gaps. It can also highlight where data has changed, which can be used to spot where transponder data has been spoofed.
-
 -   title: Reconcile
     link: https://github.com/maxharlow/reconcile
     type: tool
     state: current
     details: |
         Enriches data, adding new columns based on lookups to online services. For example, taking a spreadsheet of company numbers and turning it into a list of directors of those companies.
-
--   title: Autocracy
-    link: https://github.com/maxharlow/autocracy
-    type: tool
-    state: current
-    details: |
-        Automates bulk OCR processing.
 
 -   title: CSV Fetch
     link: https://github.com/maxharlow/csv-fetch
@@ -33,6 +19,13 @@
     details: |
         Downloads a list of URLs from a CSV spreadsheet.
 
+-   title: Entabulate
+    link: https://github.com/maxharlow/entabulate
+    type: tool
+    state: current
+    details: |
+        Converts Json files to CSV. Supports Json Lines (such as [the Companies House PSC data](https://download.companieshouse.gov.uk/en_pscdata.html)) and folders with nested Json files. Can also output Json Lines. Data is streamed, so files much bigger than the available memory can be converted. Takes into account nested Json objects.
+
 -   title: Textmatch
     link: https://github.com/maxharlow/textmatch
     type: library
@@ -40,12 +33,19 @@
     details: |
         Finds fuzzy matches between datasets. The library that powers CSV Match.
 
--   title: Entabulate
-    link: https://github.com/maxharlow/entabulate
+-   title: Autocracy
+    link: https://github.com/maxharlow/autocracy
     type: tool
     state: current
     details: |
-        Converts Json files to CSV. Supports Json Lines (such as [the Companies House PSC data](https://download.companieshouse.gov.uk/en_pscdata.html)) and folders with nested Json files. Can also output Json Lines. Data is streamed, so files much bigger than the available memory can be converted. Takes into account nested Json objects.
+        Automates bulk OCR processing.
+
+-   title: Ship Overviewer
+    link: https://observablehq.com/@maxharlow/ship-overviewer
+    type: tool
+    state: archived
+    details: |
+        Processes ship tracking data and generates a summary of where the vessel has been, and identifies any gaps. It can also highlight where data has changed, which can be used to spot where transponder data has been spoofed.
 
 -   title: NDJson-to-CSV
     link: https://github.com/maxharlow/ndjson-to-csv
