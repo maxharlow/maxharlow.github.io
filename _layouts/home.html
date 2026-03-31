@@ -50,23 +50,9 @@ layout: default
 <a href="/clippings">More clippings</a>
 </section>
 <section id="talks">
-<h3><a href="#talks">Talks</a></h3>
+<h3><a href="#talks">Talks & teaching</a></h3>
 <ol>
-{% for talk in site.data.talks limit: 2 %}
-<li>
-<time>{{ talk.date | date: "%-d %b %Y" }}</time>
-<h4>{{ talk.title | escape }}</h4>
-<span>{{ talk.event }}</span><span>{{ talk.location }}</span>
-<div>{{ talk.details | markdownify }}</div>
-</li>
-{% endfor %}
-</ol>
-<a href="/talks">More talks</a>
-</section>
-<section id="teaching">
-<h3><a href="#teaching">Teaching</a></h3>
-<ol>
-{% for course in site.data.teaching limit: 2 %}
+{% for course in site.data.talks limit: 2 %}
 <li>
 <time>{{ course.runs.first.date | date: "%-d %b %Y" }}</time>
 <h4>{{ course.title | escape }}</h4>
@@ -75,7 +61,7 @@ layout: default
 </li>
 {% endfor %}
 </ol>
-<a href="/teaching">More teaching</a>
+<a href="/talks">More talks</a>
 </section>
 <section id="projects">
 <h3><a href="#projects">Projects</a></h3>
