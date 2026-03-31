@@ -50,22 +50,6 @@ layout: default
 </ol>
 <a href="/clippings">More clippings</a>
 </section>
-<section id="projects">
-<h3><a href="#projects">Projects</a></h3>
-<ol>
-{% for project in site.data.projects limit: 2 %}
-<li>
-{% if project.link %}
-<h4><a href="{{ project.link }}">{{ project.title | escape }}</a></h4>
-{% else %}
-<h4>{{ project.title | escape }}</h4>
-{% endif %}
-<div>{{ project.details | markdownify }}</div>
-</li>
-{% endfor %}
-</ol>
-<a href="/projects">More projects</a>
-</section>
 <section id="talks">
 <h3><a href="#talks">Talks</a></h3>
 <ol>
@@ -93,5 +77,21 @@ layout: default
 {% endfor %}
 </ol>
 <a href="/teaching">More teaching</a>
+</section>
+<section id="projects">
+<h3><a href="#projects">Projects</a></h3>
+<ol>
+{% for project in site.data.projects limit: 2 %}
+<li>
+{% if project.link %}
+<h4><a href="{{ project.link }}">{{ project.title | escape }}</a></h4>
+{% else %}
+<h4>{{ project.title | escape }}</h4>
+{% endif %}
+<div>{{ project.details | markdownify }}</div>
+</li>
+{% endfor %}
+</ol>
+<a href="/projects">More projects</a>
 </section>
 </body>
