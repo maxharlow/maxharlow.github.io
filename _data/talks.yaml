@@ -145,11 +145,12 @@
 
 -   title: How to think about data
     details: |
-        This session explained concepts as well as covered tips, tricks, and traps to avoid when working with data. Together they can help you get more organised, better understand your data, ease the friction of collaborating with others, see new opportunities, and develop working practices that make it harder to be wrong. [Slides here.](https://docs.google.com/presentation/d/1xcnBda0d4YFnrzfZe5vPO2kgSEBh2aouACKFN2-isiI)
+        This session explained concepts as well as covered tips, tricks, and traps to avoid when working with data. Together they can help you get more organised, better understand your data, ease the friction of collaborating with others, see new opportunities, and develop working practices that make it harder to be wrong.
     runs:
       - event: Dataharvest Digital 2021
         location: Online
         date: 2021-05-25
+        slides: https://docs.google.com/presentation/d/1xcnBda0d4YFnrzfZe5vPO2kgSEBh2aouACKFN2-isiI
 
 -   title: Scraping from scratch
     details: You may have come across acronyms like HTTP and HTML, but what do they mean, and what does it matter? This class explains the concepts that underpin how the web works -- which are simpler than you might think -- as well as how you can use this knowledge to extract out the information you need, and understand how exactly your stories reach your readers.
@@ -161,7 +162,7 @@
 
 -   title: "Election data: from source to screen"
     details: |
-        [Guest lecture](http://www.mastervisualtoolsudg.com/) on the data processing pipelines that powered the Financial Times' coverage of the 2020 US election poll tracker and live results page.
+        [Guest lecture](https://web.archive.org/web/20201127121033/http://www.mastervisualtoolsudg.com/) on the data processing pipelines that powered the Financial Times' coverage of the 2020 US election poll tracker and live results page.
     runs:
       - event: Visual Tools to Empower Citizens, University of Girona
         location: Online
@@ -169,11 +170,12 @@
 
 -   title: Lessons learned extracting data from documents
     details: |
-        Some of the most interesting datasets started life 'unstructured' -- as documents, emails, web pages, images, videos, and other formats that look nothing like a spreadsheet. This session covered the challenges in extracting data from these formats, what tools are available, and approaches for verifying the results. [Slides here.](https://docs.google.com/presentation/d/1ULvs-iCiwVKlVaxFeNCHXjBQNvt6MLeOg-jbjuj6hno)
+        Some of the most interesting datasets started life 'unstructured' -- as documents, emails, web pages, images, videos, and other formats that look nothing like a spreadsheet. This session covered the challenges in extracting data from these formats, what tools are available, and approaches for verifying the results.
     runs:
       - event: Dataharvest Digital 2020
         location: Online
         date: 2020-09-29
+        slides: https://docs.google.com/presentation/d/1ULvs-iCiwVKlVaxFeNCHXjBQNvt6MLeOg-jbjuj6hno
 
 -   title: Introduction to code for journalists
     details: Want to take your first steps with code but not sure how to begin? Or want to learn how code is being used in the newsroom and if it can help you and your team? This weekend workshop is an introductory primer to learning to code, showing recent story examples, explaining the fundamental concepts in programming, and demystifying the jargon.
@@ -231,11 +233,12 @@
 
 -   title: Stories from the command line
     details: |
-        For those taking their first steps with data and code, the command line is essential. There are also many useful command line based applications -- understanding it opens the door to these power tools. This session covered how it works, the basic commands and concepts, and some of the tools which can be useful in data investigations, including story examples. [Slides here.](https://docs.google.com/presentation/d/1_6aZtaFdpJJkoj26pWLba3Pev5yrDNxR6k69sBU8oGg)
+        For those taking their first steps with data and code, the command line is essential. There are also many useful command line based applications -- understanding it opens the door to these power tools. This session covered how it works, the basic commands and concepts, and some of the tools which can be useful in data investigations, including story examples.
     runs:
       - event: Global Investigative Journalism Conference 2019
         location: Hamburg, Germany
         date: 2019-09-27
+        slides: https://docs.google.com/presentation/d/1_6aZtaFdpJJkoj26pWLba3Pev5yrDNxR6k69sBU8oGg
 
 -   title: Why code?
     details: |
@@ -247,19 +250,21 @@
 
 -   title: How can code help your journalism?
     details: |
-        An introduction to how code is used in the newsroom, with recent story examples, explaining the fundamental concepts and demystifying the jargon. We also guided attendees through the most common programming languages, and gave a roadmap to deciding which to pursue. [Slides here.](https://docs.google.com/presentation/d/1-PBDi4XqMY2bygxYpVlqWSYwcLNB4AJUSG-6OvQ6IDU)
+        An introduction to how code is used in the newsroom, with recent story examples, explaining the fundamental concepts and demystifying the jargon. We also guided attendees through the most common programming languages, and gave a roadmap to deciding which to pursue.
     runs:
       - event: CIJ Summer Conference 2018
         location: London, UK
         date: 2018-06-28
+        slides: https://docs.google.com/presentation/d/1-PBDi4XqMY2bygxYpVlqWSYwcLNB4AJUSG-6OvQ6IDU
 
 -   title: "Don't fear the robots: five reasons investigative journalists should welcome automation"
     details: |
-        This talk explained the ways automation is already being used in newsrooms, why the coming wave of automation is not a threat, and how we can embrace this new technology to improve the quality of investigative reporting at a time of shrinking newsroom resources. [Slides here.](https://docs.google.com/presentation/d/16cGPgILBrYfka9CNf4QHUFbIf2H0bhI2HplI9ioo1fM)
+        This talk explained the ways automation is already being used in newsrooms, why the coming wave of automation is not a threat, and how we can embrace this new technology to improve the quality of investigative reporting at a time of shrinking newsroom resources.
     runs:
       - event: Dataharvest 2018
         location: Mechelen, Belgium
         date: 2018-05-27
+        slides: https://docs.google.com/presentation/d/16cGPgILBrYfka9CNf4QHUFbIf2H0bhI2HplI9ioo1fM
 
 -   title: GitHub for journalists
     details: Whether you find yourself collaborating on code, data, or prose, [GitHub](https://github.com/) can work for journalists. This class covered what GitHub is, the benefits of using it, and how it is typically used both by people doing data analysis and by developers. Attendees were shown how to create a first repository and make pull requests.
@@ -278,27 +283,30 @@
 
 -   title: Building a culture of knowledge sharing in journalism
     details: |
-        As data becomes increasingly important to journalism reporters need to keep their skills up to date. However, newsrooms have less budget for training and conferences than ever before. This was a lightning talk on how [Journocoders](http://journocoders.com/) tries to solve these problems. [Video here.](https://www.youtube.com/watch?v=ZF6E4e4F5Po) [Slides here.](https://docs.google.com/presentation/d/1kRl3IP02R4zCsT3zimA1P-TVanbD_NFGxHKYtlOJNPI)
+        As data becomes increasingly important to journalism reporters need to keep their skills up to date. However, newsrooms have less budget for training and conferences than ever before. This was a lightning talk on how [Journocoders](https://journocoders.com/) tries to solve these problems. [Video here.](https://www.youtube.com/watch?v=ZF6E4e4F5Po)
     runs:
       - event: Dataharvest 2017
         location: Mechelen, Belgium
         date: 2017-05-19
+        slides: https://docs.google.com/presentation/d/1kRl3IP02R4zCsT3zimA1P-TVanbD_NFGxHKYtlOJNPI
 
 -   title: 'The power of fuzzy: finding connections in a messy world'
     details: |
-        Like our reality, our data is often messy. Finding meaningful connections between such datasets often means using fuzzy matching algorithms. This was a high-level look at some of the most commonly used algorithms, their pros and cons, and how they are used in practice. [Slides here.](https://docs.google.com/presentation/d/1EkNCiJ2CwvDv_V_nXkBlcTRujhdUM2OtBsB3byxuKDQ)
+        Like our reality, our data is often messy. Finding meaningful connections between such datasets often means using fuzzy matching algorithms. This was a high-level look at some of the most commonly used algorithms, their pros and cons, and how they are used in practice.
     runs:
       - event: CSV Conf 2017
         location: Portland, USA
         date: 2017-05-03
+        slides: https://docs.google.com/presentation/d/1EkNCiJ2CwvDv_V_nXkBlcTRujhdUM2OtBsB3byxuKDQ
 
 -   title: 'Data for investigations: beyond Excel'
     details: |
-        Though much data-led reporting is done in Excel, some can only be reported using other tools. This talk ran through a few stories which took different approaches. [Write-up here.](http://foodresearch.org.uk/2015/09/frc-holds-members-only-event-with-the-bureau-of-investigative-journalism-on-researching-influential-organisations) [Slides here.](https://docs.google.com/presentation/d/18mhM2yQ5OH3PfSilJRaHVXytOD08MeMcnFpHUZlvXrc)
+        Though much data-led reporting is done in Excel, some can only be reported using other tools. This talk ran through a few stories which took different approaches. [Write-up here.](https://web.archive.org/web/20160501150750/http://foodresearch.org.uk/2015/09/frc-holds-members-only-event-with-the-bureau-of-investigative-journalism-on-researching-influential-organisations/)
     runs:
       - event: Food Research Council Workshop 2015
         location: London, UK
         date: 2015-09-24
+        slides: https://docs.google.com/presentation/d/18mhM2yQ5OH3PfSilJRaHVXytOD08MeMcnFpHUZlvXrc
 
 -   title: Muckrakers and tech makers
     details: |
@@ -318,7 +326,7 @@
 
 -   title: Using the Guardian's Content API
     details: |
-        An introduction to the Guardian\'s [Content API](http://open-platform.theguardian.com/), which lets developers build their own applications using Guardian content. Also judge on a prize for the best use of the API. [Write-up here.](https://blog.wan-ifra.org/2014/05/04/app-to-game-ify-the-news-wins-mediahackdays)
+        An introduction to the Guardian\'s [Content API](https://open-platform.theguardian.com/), which lets developers build their own applications using Guardian content. Also judge on a prize for the best use of the API. [Write-up here.](https://blog.wan-ifra.org/2014/05/04/app-to-game-ify-the-news-wins-mediahackdays)
     runs:
       - date: 2014-05-04
         event: MediaHackDays 2014
